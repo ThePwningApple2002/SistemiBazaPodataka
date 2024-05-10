@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj": {}
+    "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj": {}
   },
   "projects": {
-    "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj": {
+    "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj",
+        "projectUniqueName": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj",
         "projectName": "Drugi_Deo_SBP",
-        "projectPath": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj",
+        "projectPath": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP\\Drugi_Deo_SBP.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\obj\\",
+        "outputPath": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\Drugi_Deo_SBP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net7.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -57,6 +57,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
