@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Drugi_Deo_SBP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4296ccb40912329e8ad3bf691e7497af03e06848")]
 [assembly: System.Reflection.AssemblyProductAttribute("Drugi_Deo_SBP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Drugi_Deo_SBP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
