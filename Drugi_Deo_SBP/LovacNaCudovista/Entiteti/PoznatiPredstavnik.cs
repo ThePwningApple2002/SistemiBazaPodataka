@@ -19,7 +19,7 @@ namespace LovacNaCudovista.Entiteti
         public virtual IList<Lovac> Lovci { get; set; }
 
         public PoznatiPredstavnik() {
-            
+            SusretPP = new List<Susret>();  
             Legende = new List<Legenda>();
             Lovci = new List<Lovac>();
         }

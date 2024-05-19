@@ -20,7 +20,7 @@ namespace LovacNaCudovista.Entiteti
 
 
         public Protivmere() {
-
+            Uslovi = new List<UsloviZaPrimenu>();
             Predmeti = new List<Predmet>();
             Cudovista = new List<Cudoviste>();
 
