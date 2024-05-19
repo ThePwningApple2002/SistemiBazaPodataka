@@ -43,9 +43,9 @@ CREATE TABLE MagSposobnost (
 -- Tabela Bajalica
 CREATE TABLE Bajalica (
     IdBajalice NUMBER PRIMARY KEY,
-    NazivBajalice VARCHAR2(50),
-    Zastita VARCHAR2(50),
-    Prednost VARCHAR2(50)
+    NazivBajalice VARCHAR2(255),
+    Zastita VARCHAR2(255),
+    Prednost VARCHAR2(255)
 );
 
 -- Tabela Legenda
@@ -73,10 +73,10 @@ CREATE TABLE Lovac (
 -- Tabela Lokacija
 CREATE TABLE Lokacija (
     IdLokacije NUMBER PRIMARY KEY,
-    TipLok VARCHAR2(50),
-    NazivLok VARCHAR2(50),
-    ZemljaLok VARCHAR2(50),
-    Blago VARCHAR2(50),
+    TipLok VARCHAR2(255),
+    NazivLok VARCHAR2(255),
+    ZemljaLok VARCHAR2(255),
+    Blago VARCHAR2(255),
     IdLeg NUMBER REFERENCES Legenda(IdLegende)
 );
 

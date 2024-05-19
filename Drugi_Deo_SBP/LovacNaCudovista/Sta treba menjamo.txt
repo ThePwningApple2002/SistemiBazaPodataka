@@ -1,0 +1,5 @@
+PRIMARNI KLJUC NA POZNATI PREDSTAVNIK MORA BROJ, tkd surogat kljuc, a ime unique not nullable, i sve sto povlaci kad se promeni kljuc, ime 255
+susret, lovactragapozpred, legenda drop imepp fk, promeni kljuc fk
+iz sve manytomany tabele izbacen surogat kljuc
+
+brdo not nullable stvari sto smo bili autisticni da stavimo
