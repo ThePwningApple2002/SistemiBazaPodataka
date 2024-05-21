@@ -12,7 +12,7 @@ namespace LovacNaCudovista.Entiteti
         public virtual string? PrvoPominjanje { get; set; }
         public virtual string? TekstLegende { get; set; }
         public virtual string? ZemljaPorekla { get; set; }
-        public virtual required PoznatiPredstavnik LegZaPP { get; set; }
+        public virtual  PoznatiPredstavnik LegZaPP { get; set; }
 
         public virtual IList<Lokacija> Lokacije {  get; set; }
 

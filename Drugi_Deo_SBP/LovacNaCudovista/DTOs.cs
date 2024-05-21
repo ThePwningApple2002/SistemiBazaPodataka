@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LovacNaCudovista.Entiteti;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -134,7 +135,7 @@ namespace LovacNaCudovista
         public virtual string? PrvoPominjanje { get; set; }
         public virtual string? TekstLegende { get; set; }
         public virtual string? ZemljaPorekla { get; set; }
-        public virtual required PoznatiPredstavnikBasic LegZaPP { get; set; }
+        public virtual PoznatiPredstavnikBasic LegZaPP { get; set; }
 
         public virtual IList<LokacijaBasic> Lokacije { get; set; }
 
@@ -148,13 +149,13 @@ namespace LovacNaCudovista
 
         }
 
-        public LegendaBasic(int idLegende, string prvopominjanje, string tekstlegende, string zemljaporekla)
+        public LegendaBasic(int idLegende, string prvopominjanje, string tekstlegende, string zemljaporekla, PoznatiPredstavnikBasic legZaPP)
         {   
             IdLegende = idLegende;
             PrvoPominjanje = prvopominjanje;
             TekstLegende = tekstlegende;
             ZemljaPorekla = zemljaporekla;
-
+            LegZaPP = legZaPP;
         }
     }
 
@@ -164,15 +165,18 @@ namespace LovacNaCudovista
         public virtual string? PrvoPominjanje { get; set; }
         public virtual string? TekstLegende { get; set; }
         public virtual string? ZemljaPorekla { get; set; }
+        public virtual PoznatiPredstavnikBasic LegZaPP { get; set; }
 
 
-        public LegendaPregled(int idLegende, string prvopominjanje, string tekstlegende, string zemljaporekla)
+        public LegendaPregled(int idLegende, string prvopominjanje,
+            string tekstlegende, string zemljaporekla, PoznatiPredstavnikBasic legZaPP)
         {
             IdLegende = idLegende;
             PrvoPominjanje = prvopominjanje;
             TekstLegende = tekstlegende;
             ZemljaPorekla = zemljaporekla;
-
+            LegZaPP = legZaPP;
+            
         }
 
     }
@@ -200,13 +204,14 @@ namespace LovacNaCudovista
 
         public virtual IList<SusretBasic> SusretiLok { get; set; }
 
-        public LokacijaBasic(int idLokacije, string tipLok, string nazivLok, string zemljaLok, string blago)
+        public LokacijaBasic(int idLokacije, string tipLok, string nazivLok, string zemljaLok, string blago, LegendaBasic legendaLokacije)
         {
             IdLokacije = idLokacije;
             TipLok = tipLok;
             NazivLok = nazivLok;
             ZemljaLok = zemljaLok;
             Blago = blago;
+            LegendaLokacije = legendaLokacije;
             
         }
 
@@ -230,15 +235,16 @@ namespace LovacNaCudovista
 
         public virtual string ZemljaLok { get; set; }
         public virtual string Blago { get; set; }
+        public virtual LegendaBasic LegendaLokacije { get; set; }
 
-        public LokacijaPregled(int idLokacije, string tipLok, string nazivLok, string zemljaLok, string blago)
+        public LokacijaPregled(int idLokacije, string tipLok, string nazivLok, string zemljaLok, string blago, LegendaBasic legendaLokacije)
         {
             IdLokacije = idLokacije;
             TipLok = tipLok;
             NazivLok = nazivLok;
             ZemljaLok = zemljaLok;
             Blago = blago;
-
+            LegendaLokacije = legendaLokacije;  
         }
     }
 
@@ -411,6 +417,7 @@ namespace LovacNaCudovista
                 OpisMagSpos = opismagspos;
                 Ofanzivna = ofanzivna;
                 Defanzivna = defanzivna;
+           
 
         }
         public MagSposobnostBasic()
@@ -426,7 +433,7 @@ namespace LovacNaCudovista
         public virtual string? Ofanzivna { get; set; }
         public virtual string? Defanzivna { get; set; }
 
-
+        
         public MagSposobnostPregled(int idMagSpos, string? nazivmagspos, string? opismagspos, string? ofanzivna, string? defanzivna)
         {
             IdMagSpos = idMagSpos;
@@ -434,7 +441,7 @@ namespace LovacNaCudovista
             OpisMagSpos = opismagspos;
             Ofanzivna = ofanzivna;
             Defanzivna = defanzivna;
-
+            
         }
     }
     #endregion
@@ -496,11 +503,12 @@ namespace LovacNaCudovista
         public virtual IList<SusretBasic> SusretPP { get; set; }
         public virtual IList<LovacBasic> Lovci { get; set; }
 
-        public PoznatiPredstavnikBasic(int idPozPred, string jedime, int? starost)
+        public PoznatiPredstavnikBasic(int idPozPred, string jedime, int? starost, CudovisteBasic pozpredcud)
         {
             IdPozPred = idPozPred;
             JedinstvenoIme = jedime;
             Starost = starost;
+            PoznatiPredCud = pozpredcud;
         }
 
         public PoznatiPredstavnikBasic()
@@ -517,13 +525,15 @@ namespace LovacNaCudovista
         public virtual int IdPozPred { get; set; }
         public virtual string JedinstvenoIme { get; set; }
         public virtual int? Starost { get; set; }
-     
+        public virtual CudovisteBasic PoznatiPredCud { get; set; }
 
-        public PoznatiPredstavnikPregled(int idPozPred, string jedime, int? starost)
+
+        public PoznatiPredstavnikPregled(int idPozPred, string jedime, int? starost, CudovisteBasic pozpredcud)
         {
             IdPozPred = idPozPred;
             JedinstvenoIme = jedime;
             Starost = starost;
+            PoznatiPredCud = pozpredcud;
         }
 
       

@@ -11,7 +11,7 @@ namespace LovacNaCudovista.Entiteti
         public virtual int IdPozPred { get; set; }
         public virtual string JedinstvenoIme { get; set; }
         public virtual int? Starost { get; set; }
-        public virtual Cudoviste PoznatiPredCud { get; set; }
+            public virtual Cudoviste PoznatiPredCud { get; set; }
 
         public virtual IList<Legenda> Legende {  get; set; }
 
