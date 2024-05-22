@@ -28,49 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btnLovac = new Button();
+            btnCud = new Button();
+            btnNeMagCud = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnLovac
             // 
-            button1.Location = new Point(27, 23);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 52);
-            button1.TabIndex = 0;
-            button1.Text = "ucitaj bajalicu";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            btnLovac.Location = new Point(467, 214);
+            btnLovac.Margin = new Padding(3, 4, 3, 4);
+            btnLovac.Name = "btnLovac";
+            btnLovac.Size = new Size(86, 69);
+            btnLovac.TabIndex = 0;
+            btnLovac.Text = "Lovac";
+            btnLovac.UseVisualStyleBackColor = true;
+            btnLovac.Click += btnLovac_Click;
             // 
-            // button2
+            // btnCud
             // 
-            button2.Location = new Point(433, 147);
-            button2.Name = "button2";
-            button2.Size = new Size(248, 112);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnCud.Location = new Point(407, 320);
+            btnCud.Margin = new Padding(3, 4, 3, 4);
+            btnCud.Name = "btnCud";
+            btnCud.Size = new Size(195, 67);
+            btnCud.TabIndex = 1;
+            btnCud.Text = "Cudovista";
+            btnCud.UseVisualStyleBackColor = true;
+            btnCud.Click += btnCud_Click;
             // 
-            // button3
+            // btnNeMagCud
             // 
-            button3.Location = new Point(356, 353);
-            button3.Name = "button3";
-            button3.Size = new Size(207, 77);
-            button3.TabIndex = 2;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            btnNeMagCud.Location = new Point(407, 432);
+            btnNeMagCud.Margin = new Padding(3, 4, 3, 4);
+            btnNeMagCud.Name = "btnNeMagCud";
+            btnNeMagCud.Size = new Size(195, 66);
+            btnNeMagCud.TabIndex = 2;
+            btnNeMagCud.Text = "idk jebem ti mater";
+            btnNeMagCud.UseVisualStyleBackColor = true;
+            btnNeMagCud.Click += btnNeMagCud_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(914, 600);
+            Controls.Add(btnNeMagCud);
+            Controls.Add(btnCud);
+            Controls.Add(btnLovac);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -79,8 +83,8 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Button btnLovac;
+        private Button btnCud;
+        private Button btnNeMagCud;
     }
 }

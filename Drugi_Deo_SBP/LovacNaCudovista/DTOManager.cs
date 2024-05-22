@@ -143,6 +143,7 @@ namespace LovacNaCudovista
                     cudovista.Add(new CudovistePregled(p.IdCudovista, p.NazivCud, p.PodTipCud, p.VekPomCud));
                 }
                 s.Close();
+                
 
             }
             catch (Exception ec)
@@ -153,6 +154,29 @@ namespace LovacNaCudovista
 
 
         }
+
+        public static List<MagCudovistePregled> vratisvaMagCudovista()
+        {
+            List<MagCudovistePregled> magCudovista = new List<MagCudovistePregled>();
+            try
+            {
+                ISession s = DataLayer.GetSession();
+
+                IEnumerable<MagCudoviste> svaMagCudovista = from o in s.Query<MagCudoviste>() select o;
+
+                foreach (MagCudoviste p in svaMagCudovista)
+                {
+                    magCudovista.Add(new MagCudovistePregled(p.IdCudovista, p.NazivCud, p.PodTipCud, p.VekPomCud, p.Postojanje));
+                }
+                s.Close();
+            }
+            catch (Exception ec)
+            {
+                // Handle exceptions
+            }
+            return magCudovista;
+        }
+        //MAGICNA CUDOVISTA
 
         public static void dodajMagCudoviste(MagCudovisteBasic b)
         {

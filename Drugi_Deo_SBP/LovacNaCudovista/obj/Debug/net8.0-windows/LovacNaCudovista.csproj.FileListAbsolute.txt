@@ -28,3 +28,35 @@ H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-w
 H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.pdb
 H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.genruntimeconfig.cache
 H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.exe
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.deps.json
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.runtimeconfig.json
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.pdb
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.AssemblyReference.cache
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Form1.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.GenerateResource.cache
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfoInputs.cache
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfo.cs
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.CoreCompileInputs.cache
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.sourcelink.json
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaC.6E5B2913.Up2Date
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\refint\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.pdb
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.genruntimeconfig.cache
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
