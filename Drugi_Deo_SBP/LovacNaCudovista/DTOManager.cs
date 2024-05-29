@@ -178,6 +178,58 @@ namespace LovacNaCudovista
         }
         //MAGICNA CUDOVISTA
 
+        public static List<NeMagCudovistePregled> vratisvaNeMagCudovista()
+        {
+            List<NeMagCudovistePregled> nemagCudovista = new List<NeMagCudovistePregled>();
+            try
+            {
+                ISession s = DataLayer.GetSession();
+
+                IEnumerable<NeMagCudoviste> svaNeMagCudovista = from o in s.Query<NeMagCudoviste>() select o;
+
+                foreach (NeMagCudoviste p in svaNeMagCudovista)
+                {
+                    nemagCudovista.Add(new NeMagCudovistePregled(p.IdCudovista, p.NazivCud, p.PodTipCud, p.VekPomCud, p.Visina,p.Duzina,p.Kandze,p.BrojGlava,p.ZiviUVodi,p.Leti,p.Otrovno,p.Tezina));
+                }
+                s.Close();
+            }
+            catch (Exception ec)
+            {
+                // Handle exceptions
+            }
+            return nemagCudovista;
+        }
+        //NEMAGICNA CUDOVISTA
+
+
+        public static void dodajCudoviste(CudovisteBasic b)
+        {
+            try
+            {
+                ISession s = DataLayer.GetSession();
+
+                Cudoviste o = new Cudoviste();
+
+                o.IdCudovista = b.IdCudovista;
+                o.NazivCud = b.NazivCud;
+                o.PodTipCud = b.PodTipCud;
+                o.VekPomCud = b.VekPomCud;
+                
+
+
+                s.SaveOrUpdate(o);
+
+                s.Flush();
+
+                s.Close();
+            }
+            catch (Exception ec)
+            {
+                //handle exceptions
+            }
+
+        }
+
         public static void dodajMagCudoviste(MagCudovisteBasic b)
         {
             try
@@ -237,6 +289,32 @@ namespace LovacNaCudovista
             {
                 //handle exceptions
             }
+        }
+        public static void azurirajCudoviste(CudovisteBasic c)
+        {
+            try
+            {
+                ISession s = DataLayer.GetSession();
+
+                Cudoviste o = s.Load<Cudoviste>(c.IdCudovista);
+
+                o.IdCudovista = c.IdCudovista;
+                o.NazivCud = c.NazivCud;
+                o.PodTipCud = c.PodTipCud;
+                o.VekPomCud = c.VekPomCud;
+
+                s.Update(o);
+                s.Flush();
+
+                s.Close();
+            }
+            catch (Exception ec)
+            {
+                //handle exceptions
+            }
+
+
+
         }
 
         public static void azurirajMagCudoviste(MagCudovisteBasic b)
@@ -1058,6 +1136,38 @@ namespace LovacNaCudovista
             return pb;
         }
 
+        public static List<PoznatiPredstavnikBasic> vratiPoznatePredstavnikeZaCudoviste(int cudovisteId)
+    {
+        List<PoznatiPredstavnikBasic> poznatiPredstavnici = new List<PoznatiPredstavnikBasic>();
+        try
+        {
+            ISession s = DataLayer.GetSession();
+
+            // Upit za dobijanje poznatih predstavnika po ID-u čudovišta
+            IEnumerable<PoznatiPredstavnik> sviPredstavnici = from p in s.Query<PoznatiPredstavnik>()
+                                                              where p.PoznatiPredCud.IdCudovista == cudovisteId
+                                                              select p;
+
+            foreach (var predstavnik in sviPredstavnici)
+            {
+                poznatiPredstavnici.Add(new PoznatiPredstavnikBasic
+                {
+                    IdPozPred = predstavnik.IdPozPred,
+                    JedinstvenoIme = predstavnik.JedinstvenoIme,
+                    Starost = predstavnik.Starost,
+                    PoznatiPredCud = new CudovisteBasic { IdCudovista = predstavnik.PoznatiPredCud.IdCudovista }
+                });
+            }
+
+            s.Close();
+        }
+        catch (Exception ec)
+        {
+            // Handle exceptions
+        }
+        return poznatiPredstavnici;
+    }
+
         public static List<PoznatiPredstavnikPregled> vratiPozPredstavnike()
         {
 
@@ -1095,7 +1205,7 @@ namespace LovacNaCudovista
                 o.JedinstvenoIme = pozpred.JedinstvenoIme;
                 o.Starost = pozpred.Starost;
 
-                Cudoviste c = s.Load<Cudoviste>(pozpred.IdPozPred);
+                Cudoviste c = s.Load<Cudoviste>(cud.IdCudovista);
 
 
                 o.PoznatiPredCud = c;

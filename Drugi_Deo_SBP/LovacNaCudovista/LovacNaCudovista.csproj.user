@@ -7,7 +7,46 @@
     <Compile Update="Forme\CudovistaForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forme\CudovisteAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\CudovisteUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\LokacijaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forme\LovacForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\MagCudForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\MagCudovisteAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\MagCudovisteUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\NeMagCudAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\NeMagCudForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\NeMagCudUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\PoznatiPredstavnikForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\PozPredAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\PozPredUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\ZastitaForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

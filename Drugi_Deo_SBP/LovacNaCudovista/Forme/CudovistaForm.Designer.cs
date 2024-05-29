@@ -39,8 +39,11 @@
             btnIzmeniCud = new Button();
             groupBox2 = new GroupBox();
             groupBox3 = new GroupBox();
-            button1 = new Button();
+            btnNeMagCud = new Button();
+            btnMagCud = new Button();
+            btnPozPred = new Button();
             button2 = new Button();
+            button3 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -101,6 +104,7 @@
             btnDodajCud.TabIndex = 1;
             btnDodajCud.Text = "Dodaj Cudovista";
             btnDodajCud.UseVisualStyleBackColor = true;
+            btnDodajCud.Click += btnDodajCud_Click;
             // 
             // btnObrisiCud
             // 
@@ -111,6 +115,7 @@
             btnObrisiCud.TabIndex = 2;
             btnObrisiCud.Text = "Obrisi Cudoviste";
             btnObrisiCud.UseVisualStyleBackColor = true;
+            btnObrisiCud.Click += btnObrisiCud_Click;
             // 
             // btnIzmeniCud
             // 
@@ -121,6 +126,7 @@
             btnIzmeniCud.TabIndex = 3;
             btnIzmeniCud.Text = "Izmeni Cudoviste";
             btnIzmeniCud.UseVisualStyleBackColor = true;
+            btnIzmeniCud.Click += btnIzmeniCud_Click;
             // 
             // groupBox2
             // 
@@ -136,8 +142,8 @@
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(button2);
-            groupBox3.Controls.Add(button1);
+            groupBox3.Controls.Add(btnNeMagCud);
+            groupBox3.Controls.Add(btnMagCud);
             groupBox3.Location = new Point(649, 206);
             groupBox3.Name = "groupBox3";
             groupBox3.Size = new Size(206, 145);
@@ -145,31 +151,68 @@
             groupBox3.TabStop = false;
             groupBox3.Text = "Vrste Cudovista";
             // 
-            // button1
+            // btnNeMagCud
             // 
-            button1.AutoSize = true;
-            button1.Location = new Point(41, 26);
-            button1.Name = "button1";
-            button1.Size = new Size(145, 43);
-            button1.TabIndex = 4;
-            button1.Text = "Magicna Cudovista";
-            button1.UseVisualStyleBackColor = true;
+            btnNeMagCud.AutoSize = true;
+            btnNeMagCud.Location = new Point(23, 75);
+            btnNeMagCud.Name = "btnNeMagCud";
+            btnNeMagCud.Size = new Size(164, 43);
+            btnNeMagCud.TabIndex = 5;
+            btnNeMagCud.Text = "NeMagicna Cudovista";
+            btnNeMagCud.UseVisualStyleBackColor = true;
+            btnNeMagCud.Click += btnNeMagCud_Click;
+            // 
+            // btnMagCud
+            // 
+            btnMagCud.AutoSize = true;
+            btnMagCud.Location = new Point(23, 26);
+            btnMagCud.Name = "btnMagCud";
+            btnMagCud.Size = new Size(164, 43);
+            btnMagCud.TabIndex = 4;
+            btnMagCud.Text = "Magicna Cudovista";
+            btnMagCud.UseVisualStyleBackColor = true;
+            btnMagCud.Click += btnMagCud_Click;
+            // 
+            // btnPozPred
+            // 
+            btnPozPred.AutoSize = true;
+            btnPozPred.Location = new Point(672, 365);
+            btnPozPred.Name = "btnPozPred";
+            btnPozPred.Size = new Size(164, 43);
+            btnPozPred.TabIndex = 6;
+            btnPozPred.Text = "Poznati Predstavnik";
+            btnPozPred.UseVisualStyleBackColor = true;
+            btnPozPred.Click += btnPozPred_Click;
             // 
             // button2
             // 
             button2.AutoSize = true;
-            button2.Location = new Point(36, 75);
+            button2.Location = new Point(672, 414);
             button2.Name = "button2";
             button2.Size = new Size(164, 43);
-            button2.TabIndex = 5;
-            button2.Text = "NeMagicna Cudovista";
+            button2.TabIndex = 7;
+            button2.Text = "Zastita";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.AutoSize = true;
+            button3.Location = new Point(672, 465);
+            button3.Name = "button3";
+            button3.Size = new Size(164, 43);
+            button3.TabIndex = 8;
+            button3.Text = "Protivmere";
+            button3.UseVisualStyleBackColor = true;
             // 
             // CudovistaForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(870, 520);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(btnPozPred);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -182,6 +225,7 @@
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -197,7 +241,10 @@
         private Button btnIzmeniCud;
         private GroupBox groupBox2;
         private GroupBox groupBox3;
+        private Button btnNeMagCud;
+        private Button btnMagCud;
+        private Button btnPozPred;
         private Button button2;
-        private Button button1;
+        private Button button3;
     }
 }

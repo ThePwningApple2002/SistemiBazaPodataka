@@ -30,7 +30,7 @@
         {
             btnLovac = new Button();
             btnCud = new Button();
-            btnNeMagCud = new Button();
+            btnLegenda = new Button();
             SuspendLayout();
             // 
             // btnLovac
@@ -55,23 +55,23 @@
             btnCud.UseVisualStyleBackColor = true;
             btnCud.Click += btnCud_Click;
             // 
-            // btnNeMagCud
+            // btnLegenda
             // 
-            btnNeMagCud.Location = new Point(407, 432);
-            btnNeMagCud.Margin = new Padding(3, 4, 3, 4);
-            btnNeMagCud.Name = "btnNeMagCud";
-            btnNeMagCud.Size = new Size(195, 66);
-            btnNeMagCud.TabIndex = 2;
-            btnNeMagCud.Text = "idk jebem ti mater";
-            btnNeMagCud.UseVisualStyleBackColor = true;
-            btnNeMagCud.Click += btnNeMagCud_Click;
+            btnLegenda.Location = new Point(407, 432);
+            btnLegenda.Margin = new Padding(3, 4, 3, 4);
+            btnLegenda.Name = "btnLegenda";
+            btnLegenda.Size = new Size(195, 66);
+            btnLegenda.TabIndex = 2;
+            btnLegenda.Text = "Legenda";
+            btnLegenda.UseVisualStyleBackColor = true;
+            btnLegenda.Click += btnLegenda_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(914, 600);
-            Controls.Add(btnNeMagCud);
+            Controls.Add(btnLegenda);
             Controls.Add(btnCud);
             Controls.Add(btnLovac);
             Margin = new Padding(3, 4, 3, 4);
@@ -85,6 +85,6 @@
 
         private Button btnLovac;
         private Button btnCud;
-        private Button btnNeMagCud;
+        private Button btnLegenda;
     }
 }

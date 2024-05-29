@@ -60,3 +60,14 @@ C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacN
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovisteAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovisteUpdateForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteUpdateForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudUpdateForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PoznatiPredstavnikForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredUpdateForm.resources

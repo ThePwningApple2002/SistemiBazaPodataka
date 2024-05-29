@@ -38,7 +38,7 @@ namespace LovacNaCudovista
             forma.ShowDialog();
         }
 
-        private void btnNeMagCud_Click(object sender, EventArgs e)
+        private void btnLegenda_Click(object sender, EventArgs e)
         {
 
             
