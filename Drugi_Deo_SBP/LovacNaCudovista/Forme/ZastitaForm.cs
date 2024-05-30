@@ -82,10 +82,10 @@ namespace LovacNaCudovista.Forme
             }
 
             int idZastite = Int32.Parse(listaZastita.SelectedItems[0].SubItems[0].Text);
-            ZastitaBasic ob = DTOManager.VratiZastita(idZastite);
+            //ZastitaBasic ob = DTOManager.VratiZastita(idZastite);
 
-            ZastitaUpdateForm formaUpdate = new ZastitaUpdateForm(ob);
-            formaUpdate.ShowDialog();
+            //ZastitaUpdateForm formaUpdate = new ZastitaUpdateForm(ob);
+            //formaUpdate.ShowDialog();
 
             this.popuniPodacima();
         }

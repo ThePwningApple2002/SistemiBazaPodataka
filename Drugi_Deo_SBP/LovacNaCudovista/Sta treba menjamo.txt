@@ -3,3 +3,8 @@ susret, lovactragapozpred, legenda drop imepp fk, promeni kljuc fk
 iz sve manytomany tabele izbacen surogat kljuc
 
 brdo not nullable stvari sto smo bili autisticni da stavimo
+
+
+todo
+zastita i njene metode u dtomanager/dto 
+lokacija forme i metode ako treba u dto/manager

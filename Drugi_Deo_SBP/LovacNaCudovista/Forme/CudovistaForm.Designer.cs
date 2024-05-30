@@ -42,8 +42,8 @@
             btnNeMagCud = new Button();
             btnMagCud = new Button();
             btnPozPred = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            btnLokacija = new Button();
+            btnProtivmere = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -184,34 +184,34 @@
             btnPozPred.UseVisualStyleBackColor = true;
             btnPozPred.Click += btnPozPred_Click;
             // 
-            // button2
+            // btnLokacija
             // 
-            button2.AutoSize = true;
-            button2.Location = new Point(672, 414);
-            button2.Name = "button2";
-            button2.Size = new Size(164, 43);
-            button2.TabIndex = 7;
-            button2.Text = "Zastita";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnLokacija.AutoSize = true;
+            btnLokacija.Location = new Point(672, 414);
+            btnLokacija.Name = "btnLokacija";
+            btnLokacija.Size = new Size(164, 43);
+            btnLokacija.TabIndex = 7;
+            btnLokacija.Text = "Lokacija";
+            btnLokacija.UseVisualStyleBackColor = true;
+            btnLokacija.Click += btnLokacija_Click;
             // 
-            // button3
+            // btnProtivmere
             // 
-            button3.AutoSize = true;
-            button3.Location = new Point(672, 465);
-            button3.Name = "button3";
-            button3.Size = new Size(164, 43);
-            button3.TabIndex = 8;
-            button3.Text = "Protivmere";
-            button3.UseVisualStyleBackColor = true;
+            btnProtivmere.AutoSize = true;
+            btnProtivmere.Location = new Point(672, 465);
+            btnProtivmere.Name = "btnProtivmere";
+            btnProtivmere.Size = new Size(164, 43);
+            btnProtivmere.TabIndex = 8;
+            btnProtivmere.Text = "Protivmere";
+            btnProtivmere.UseVisualStyleBackColor = true;
             // 
             // CudovistaForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(870, 520);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnProtivmere);
+            Controls.Add(btnLokacija);
             Controls.Add(btnPozPred);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
@@ -244,7 +244,7 @@
         private Button btnNeMagCud;
         private Button btnMagCud;
         private Button btnPozPred;
-        private Button button2;
-        private Button button3;
+        private Button btnLokacija;
+        private Button btnProtivmere;
     }
 }

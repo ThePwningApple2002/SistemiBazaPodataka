@@ -666,11 +666,12 @@ namespace LovacNaCudovista
         public virtual string? NazivZastite { get; set; }
         public virtual LokacijaBasic PredmetLokacija { get; set; }
 
-        public ZastitaBasic(int idZastite, string? tipzastite, string? nazivzastite) {
+        public ZastitaBasic(int idZastite, string? tipzastite, string? nazivzastite, LokacijaBasic predmetLokacija) {
 
             IdZastite = idZastite;
             TipZastite = tipzastite;
             NazivZastite = nazivzastite;
+            PredmetLokacija = predmetLokacija;
 
         }
 
@@ -681,12 +682,15 @@ namespace LovacNaCudovista
         public virtual int IdZastite { get; set; }
         public virtual string? TipZastite { get; set; }
         public virtual string? NazivZastite { get; set; }
-        public ZastitaPregled(int idZastite, string? tipzastite, string? nazivzastite)
+        public virtual LokacijaBasic PredmetLokacija { get; set; }
+        public ZastitaPregled(int idZastite, string? tipzastite, string? nazivzastite,LokacijaBasic predmetLokacija)
         {
 
             IdZastite = idZastite;
             TipZastite = tipzastite;
             NazivZastite = nazivzastite;
+            PredmetLokacija = predmetLokacija;
+            
 
         }
 

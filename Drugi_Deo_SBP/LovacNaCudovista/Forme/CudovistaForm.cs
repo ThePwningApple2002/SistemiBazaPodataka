@@ -129,9 +129,9 @@ namespace LovacNaCudovista.Forme
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnLokacija_Click(object sender, EventArgs e)
         {
-            ZastitaForm forma = new ZastitaForm();
+            LokacijaForm forma = new LokacijaForm();
             forma.ShowDialog();
         }
     }

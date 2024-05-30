@@ -97,5 +97,18 @@ namespace LovacNaCudovista.Forme
 
             }
         }
+
+        private void btnLegenda_Click(object sender, EventArgs e)
+        {
+            if (listaPozPredstavnik.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite cudoviste ciju legendu zelite da vidite!");
+                return;
+            }
+            int idPozPred = Int32.Parse(listaPozPredstavnik.SelectedItems[0].SubItems[0].Text);
+             
+            LegendaForm forma = new LegendaForm(cudovisteId, idPozPred);
+            forma.ShowDialog();
+        }
     }
 }

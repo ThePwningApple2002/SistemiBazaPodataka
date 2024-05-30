@@ -51,7 +51,7 @@ namespace LovacNaCudovista.Forme
 
 
                 DTOManager.azurirajMagCudoviste(this.cudoviste);
-                MessageBox.Show("Azuriranje prodavnice je uspesno izvrseno!");
+                MessageBox.Show("Azuriranje cudovista je uspesno izvrseno!");
                 this.Close();
             }
             else

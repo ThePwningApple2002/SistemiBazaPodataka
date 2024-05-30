@@ -38,6 +38,7 @@
             btnIzmeniPozPred = new Button();
             btnObrisiPozPred = new Button();
             btnDodajPozPred = new Button();
+            btnLegenda = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -47,7 +48,7 @@
             groupBox1.Controls.Add(listaPozPredstavnik);
             groupBox1.Location = new Point(33, 30);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(570, 361);
+            groupBox1.Size = new Size(560, 361);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Poznati Predstavnik";
@@ -60,21 +61,21 @@
             listaPozPredstavnik.GridLines = true;
             listaPozPredstavnik.Location = new Point(3, 23);
             listaPozPredstavnik.Name = "listaPozPredstavnik";
-            listaPozPredstavnik.Size = new Size(564, 335);
+            listaPozPredstavnik.Size = new Size(554, 335);
             listaPozPredstavnik.TabIndex = 4;
             listaPozPredstavnik.UseCompatibleStateImageBehavior = false;
             listaPozPredstavnik.View = View.Details;
             // 
             // columnHeader1
             // 
-            columnHeader1.Text = "IdPozPredstavnika";
-            columnHeader1.Width = 160;
+            columnHeader1.Text = "Id";
+            columnHeader1.Width = 100;
             // 
             // columnHeader2
             // 
             columnHeader2.Text = "Jedinstveno Ime";
             columnHeader2.TextAlign = HorizontalAlignment.Center;
-            columnHeader2.Width = 150;
+            columnHeader2.Width = 200;
             // 
             // columnHeader3
             // 
@@ -132,11 +133,23 @@
             btnDodajPozPred.UseVisualStyleBackColor = true;
             btnDodajPozPred.Click += btnDodajPozPred_Click;
             // 
+            // btnLegenda
+            // 
+            btnLegenda.AutoSize = true;
+            btnLegenda.Location = new Point(809, 235);
+            btnLegenda.Name = "btnLegenda";
+            btnLegenda.Size = new Size(150, 43);
+            btnLegenda.TabIndex = 4;
+            btnLegenda.Text = "Legenda";
+            btnLegenda.UseVisualStyleBackColor = true;
+            btnLegenda.Click += btnLegenda_Click;
+            // 
             // PoznatiPredstavnikForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1023, 450);
+            Controls.Add(btnLegenda);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "PoznatiPredstavnikForm";
@@ -146,6 +159,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -160,5 +174,6 @@
         private Button btnIzmeniPozPred;
         private Button btnObrisiPozPred;
         private Button btnDodajPozPred;
+        private Button btnLegenda;
     }
 }

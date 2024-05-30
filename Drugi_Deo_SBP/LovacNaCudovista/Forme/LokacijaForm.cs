@@ -16,5 +16,37 @@ namespace LovacNaCudovista.Forme
         {
             InitializeComponent();
         }
+
+        private void LokacijaForm_Load(object sender, EventArgs e)
+        {
+            //popuniPodacima();
+            this.Text = $"INFORMACIJE O LOKACIJAMA";
+
+        }
+
+        /*public void popuniPodacima()
+        {
+
+
+            listaLokacija.Items.Clear();
+            List<CudovistePregled> podaci = DTOManager.vratiLok();
+
+
+            foreach (CudovistePregled p in podaci)
+            {
+                ListViewItem item = new ListViewItem(new string[]
+                {
+                    p.IdCudovista.ToString(),
+                    p.NazivCud,
+                    p.PodTipCud,
+                    p.VekPomCud.ToString(),
+                });
+                listaLokacija.Items.Add(item);
+            }
+
+            listaLokacija.Refresh();
+        }
+        */
     }
+
 }
