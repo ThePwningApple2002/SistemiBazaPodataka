@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\susretform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\susretform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\dtomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:dtomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\entiteti\\susret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:entiteti\\susret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\usloviaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\usloviaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\susretaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\susretaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:dtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\susretform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\susretform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\uslovzaprimenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\uslovzaprimenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\forme\\lovacform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\lovacform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\uslovzaprimenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\uslovzaprimenuform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\usloviupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\usloviupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\sta treba menjamo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:sta treba menjamo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|c:\\users\\simeon stojanovic\\source\\repos\\sistemibazapodataka\\drugi_deo_sbp\\lovacnacudovista\\forme\\usloviupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|solutionrelative:forme\\usloviupdateform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4078FB96-261C-4545-846E-62915DCB4DD1}|LovacNaCudovista.csproj|C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,70 +49,114 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SusretAddForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\SusretAddForm.cs",
-              "RelativeDocumentMoniker": "Forme\\SusretAddForm.cs",
-              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\SusretAddForm.cs [Design]",
-              "RelativeToolTip": "Forme\\SusretAddForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T10:35:40.144Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SusretForm.cs",
-              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\SusretForm.cs",
-              "RelativeDocumentMoniker": "Forme\\SusretForm.cs",
-              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\SusretForm.cs",
-              "RelativeToolTip": "Forme\\SusretForm.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDMAAAAiAAAA",
+              "Title": "DTOManager.cs",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\DTOManager.cs",
+              "RelativeDocumentMoniker": "DTOManager.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\DTOManager.cs",
+              "RelativeToolTip": "DTOManager.cs",
+              "ViewState": "AQIAAGcIAAAAAAAAAAAiwHoIAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T10:34:58.841Z",
+              "WhenOpened": "2024-06-15T10:44:11.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsloviAddForm.cs",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UsloviAddForm.cs",
+              "RelativeDocumentMoniker": "Forme\\UsloviAddForm.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UsloviAddForm.cs",
+              "RelativeToolTip": "Forme\\UsloviAddForm.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T16:09:02.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsloviUpdateForm.cs",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UsloviUpdateForm.cs",
+              "RelativeDocumentMoniker": "Forme\\UsloviUpdateForm.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UsloviUpdateForm.cs",
+              "RelativeToolTip": "Forme\\UsloviUpdateForm.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:47:40.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "SusretForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\SusretForm.cs",
-              "RelativeDocumentMoniker": "Forme\\SusretForm.cs",
-              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\SusretForm.cs [Design]",
-              "RelativeToolTip": "Forme\\SusretForm.cs [Design]",
+              "Title": "UslovZaPrimenuForm.cs",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UslovZaPrimenuForm.cs",
+              "RelativeDocumentMoniker": "Forme\\UslovZaPrimenuForm.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UslovZaPrimenuForm.cs",
+              "RelativeToolTip": "Forme\\UslovZaPrimenuForm.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAtwBwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T10:33:58.217Z",
+              "WhenOpened": "2024-06-15T15:19:49.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsloviUpdateForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UsloviUpdateForm.cs",
+              "RelativeDocumentMoniker": "Forme\\UsloviUpdateForm.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UsloviUpdateForm.cs [Design]",
+              "RelativeToolTip": "Forme\\UsloviUpdateForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T15:47:21.424Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LovacForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\LovacForm.cs",
-              "RelativeDocumentMoniker": "Forme\\LovacForm.cs",
-              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\LovacForm.cs [Design]",
-              "RelativeToolTip": "Forme\\LovacForm.cs [Design]",
+              "Title": "UslovZaPrimenuForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UslovZaPrimenuForm.cs",
+              "RelativeDocumentMoniker": "Forme\\UslovZaPrimenuForm.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Forme\\UslovZaPrimenuForm.cs [Design]",
+              "RelativeToolTip": "Forme\\UslovZaPrimenuForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:58:03.132Z",
+              "WhenOpened": "2024-06-15T15:14:41.692Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Susret.cs",
-              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Entiteti\\Susret.cs",
-              "RelativeDocumentMoniker": "Entiteti\\Susret.cs",
-              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Entiteti\\Susret.cs",
-              "RelativeToolTip": "Entiteti\\Susret.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "DocumentIndex": 2,
+              "Title": "DTOs.cs",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\DTOs.cs",
+              "RelativeDocumentMoniker": "DTOs.cs",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\DTOs.cs",
+              "RelativeToolTip": "DTOs.cs",
+              "ViewState": "AQIAAPMCAAAAAAAAAAAawAcDAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T09:57:24.723Z",
+              "WhenOpened": "2024-06-15T16:53:26.406Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Sta treba menjamo.txt",
+              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Sta treba menjamo.txt",
+              "RelativeDocumentMoniker": "Sta treba menjamo.txt",
+              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Sta treba menjamo.txt",
+              "RelativeToolTip": "Sta treba menjamo.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-08T12:19:59.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -112,18 +164,6 @@
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-14T19:42:22.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Sta treba menjamo.txt",
-              "DocumentMoniker": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Sta treba menjamo.txt",
-              "RelativeDocumentMoniker": "Sta treba menjamo.txt",
-              "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Sta treba menjamo.txt",
-              "RelativeToolTip": "Sta treba menjamo.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-06-08T12:19:59.677Z"
             }
           ]
         }

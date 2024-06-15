@@ -97,9 +97,28 @@ namespace LovacNaCudovista.Forme
 
         private void btnSusret_Click(object sender, EventArgs e)
         {
-            SusretForm forma = new SusretForm();
+            if (listaLovca.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite lovca cije podatke zelite da vidite!");
+                return;
+            }
+
+            int idLovca = Int32.Parse(listaLovca.SelectedItems[0].SubItems[0].Text);
+            SusretForm forma = new SusretForm(idLovca);
             forma.ShowDialog();
             this.popuniPodacima();
+        }
+
+        private void btnPredmet_Click(object sender, EventArgs e)
+        {
+            PredmetForm forma = new PredmetForm();
+            forma.ShowDialog();
+        }
+
+        private void btnProtivmere_Click(object sender, EventArgs e)
+        {
+            ProtivmeraForm forma = new ProtivmeraForm();
+            forma.ShowDialog();
         }
     }
 }

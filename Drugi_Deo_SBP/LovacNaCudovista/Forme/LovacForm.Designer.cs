@@ -37,6 +37,8 @@
             btnObrisiLovca = new Button();
             btnDodajLovca = new Button();
             btnSusret = new Button();
+            btnPredmet = new Button();
+            btnProtivmere = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -130,11 +132,35 @@
             btnSusret.UseVisualStyleBackColor = true;
             btnSusret.Click += btnSusret_Click;
             // 
+            // btnPredmet
+            // 
+            btnPredmet.AutoSize = true;
+            btnPredmet.Location = new Point(458, 272);
+            btnPredmet.Name = "btnPredmet";
+            btnPredmet.Size = new Size(132, 43);
+            btnPredmet.TabIndex = 8;
+            btnPredmet.Text = "Predmet";
+            btnPredmet.UseVisualStyleBackColor = true;
+            btnPredmet.Click += btnPredmet_Click;
+            // 
+            // btnProtivmere
+            // 
+            btnProtivmere.AutoSize = true;
+            btnProtivmere.Location = new Point(458, 321);
+            btnProtivmere.Name = "btnProtivmere";
+            btnProtivmere.Size = new Size(132, 43);
+            btnProtivmere.TabIndex = 9;
+            btnProtivmere.Text = "Protivmere";
+            btnProtivmere.UseVisualStyleBackColor = true;
+            btnProtivmere.Click += btnProtivmere_Click;
+            // 
             // LovacForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(641, 450);
+            Controls.Add(btnProtivmere);
+            Controls.Add(btnPredmet);
             Controls.Add(btnSusret);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -159,5 +185,7 @@
         private Button btnObrisiLovca;
         private Button btnDodajLovca;
         private Button btnSusret;
+        private Button btnPredmet;
+        private Button btnProtivmere;
     }
 }

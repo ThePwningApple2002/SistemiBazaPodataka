@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LovacNaCudovista.Entiteti;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace LovacNaCudovista.Forme
 {
     public partial class SusretForm : Form
     {
-        public SusretForm()
+        int idLovca;
+        public SusretForm(int idLovca)
         {
             InitializeComponent();
+            this.idLovca = idLovca;
         }
         private void SusretForm_Load(object sender, EventArgs e)
         {
@@ -35,8 +38,11 @@ namespace LovacNaCudovista.Forme
                 ListViewItem item = new ListViewItem(new string[]
                 {
                     p.IdSusret.ToString(),
+                    p.LovacSusrtet.IdLovca.ToString(),
+                    p.SusretLok.IdLokacije.ToString(),
                     p.Vreme,
-                    p.Ishod
+                    p.Ishod,
+                    p.SusretPP.IdPozPred.ToString()
                 }) ;
                 listaSusreta.Items.Add(item);
             }
@@ -46,11 +52,19 @@ namespace LovacNaCudovista.Forme
         }
         private void btnDodaj_Click(object sender, EventArgs e)
         {
+            if (listaSusreta.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite susret iz liste!");
+                return;
+            }
 
-            SusretAddForm formaDodaj = new SusretAddForm();
+            int idLovca = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[1].Text);
+            int idLokacije = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[2].Text);
+            int idPozPred = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[5].Text);
+            SusretAddForm formaDodaj = new SusretAddForm(idLovca, idLokacije, idPozPred);
             formaDodaj.ShowDialog();
             this.popuniPodacima();
-            //nastavak
+            
         }
         private void btnObrisi_Click(object sender, EventArgs e)
         {
@@ -86,8 +100,13 @@ namespace LovacNaCudovista.Forme
                 return;
             }
 
-            int idLovca = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[0].Text);
-            SusretBasic ob = DTOManager.VratiSusret(idLovca);
+            int idSusret = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[0].Text);
+            SusretBasic ob = DTOManager.VratiSusret(idSusret);
+            if (ob == null)
+            {
+                MessageBox.Show("Greška: Susret nije pronađen.");
+                return;
+            }
 
             SusretUpdateForm formaUpdate = new SusretUpdateForm(ob);
             formaUpdate.ShowDialog();

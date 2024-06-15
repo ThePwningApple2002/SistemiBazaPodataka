@@ -10,3 +10,7 @@ todo
 bajalica, predmet,susret,protivmere,uslovi za primenu
 bajalica #1
 ipak lovac
+susret 
+predmet
+protivmere
+uslovi za primenu

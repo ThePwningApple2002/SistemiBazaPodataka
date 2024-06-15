@@ -37,6 +37,9 @@
             btnIzmeni = new Button();
             btnObrisi = new Button();
             btnDodaj = new Button();
+            columnHeader2 = new ColumnHeader();
+            columnHeader3 = new ColumnHeader();
+            columnHeader6 = new ColumnHeader();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -46,20 +49,20 @@
             groupBox1.Controls.Add(listaSusreta);
             groupBox1.Location = new Point(28, 32);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(310, 370);
+            groupBox1.Size = new Size(660, 370);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Susret";
             // 
             // listaSusreta
             // 
-            listaSusreta.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader4, columnHeader5 });
+            listaSusreta.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader6 });
             listaSusreta.Dock = DockStyle.Fill;
             listaSusreta.FullRowSelect = true;
             listaSusreta.GridLines = true;
             listaSusreta.Location = new Point(3, 23);
             listaSusreta.Name = "listaSusreta";
-            listaSusreta.Size = new Size(304, 344);
+            listaSusreta.Size = new Size(654, 344);
             listaSusreta.TabIndex = 4;
             listaSusreta.UseCompatibleStateImageBehavior = false;
             listaSusreta.View = View.Details;
@@ -84,7 +87,7 @@
             groupBox2.Controls.Add(btnIzmeni);
             groupBox2.Controls.Add(btnObrisi);
             groupBox2.Controls.Add(btnDodaj);
-            groupBox2.Location = new Point(441, 32);
+            groupBox2.Location = new Point(785, 32);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(208, 183);
             groupBox2.TabIndex = 7;
@@ -123,11 +126,26 @@
             btnDodaj.UseVisualStyleBackColor = true;
             btnDodaj.Click += btnDodaj_Click;
             // 
+            // columnHeader2
+            // 
+            columnHeader2.Text = "Lovac";
+            columnHeader2.Width = 100;
+            // 
+            // columnHeader3
+            // 
+            columnHeader3.Text = "Lokacija";
+            columnHeader3.Width = 100;
+            // 
+            // columnHeader6
+            // 
+            columnHeader6.Text = "Poznati Predstavnik";
+            columnHeader6.Width = 150;
+            // 
             // SusretForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(661, 450);
+            ClientSize = new Size(1005, 450);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "SusretForm";
@@ -150,5 +168,8 @@
         private Button btnIzmeni;
         private Button btnObrisi;
         private Button btnDodaj;
+        private ColumnHeader columnHeader2;
+        private ColumnHeader columnHeader3;
+        private ColumnHeader columnHeader6;
     }
 }

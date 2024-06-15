@@ -715,11 +715,14 @@ namespace LovacNaCudovista
         public virtual PoznatiPredstavnikBasic SusretPP { get; set; }
         public SusretBasic() { }
 
-        public SusretBasic(int idSusret, string vreme, string ishod)
+        public SusretBasic(int idsusret,LovacBasic l, LokacijaBasic l2, string vreme, string ishod, PoznatiPredstavnikBasic pp)
         {
-            IdSusret = IdSusret;
-            Vreme = vreme;
-            Ishod = ishod;
+            this.IdSusret = idsusret;
+            this.LovacSusrtet = l;
+            this.SusretLok = l2;
+            this.Vreme = vreme;
+            this.Ishod = ishod;
+            this.SusretPP = pp;
         }
 
     }
@@ -728,14 +731,21 @@ namespace LovacNaCudovista
     {
 
         public virtual int IdSusret { get; set; }
+        public virtual LovacBasic LovacSusrtet { get; set; }
+        public virtual LokacijaBasic SusretLok { get; set; }
         public virtual string Vreme { get; set; }
         public virtual string Ishod { get; set; }
 
-        public SusretPregled(int idSusret, string vreme, string ishod)
+        public virtual PoznatiPredstavnikBasic SusretPP { get; set; }
+
+        public SusretPregled(int idsusret, LovacBasic l, LokacijaBasic l2, string vreme, string ishod, PoznatiPredstavnikBasic pp)
         {
-            IdSusret = idSusret;
-            Vreme = vreme;
-            Ishod = ishod;
+            this.IdSusret = idsusret;
+            this.LovacSusrtet = l;
+            this.SusretLok = l2;
+            this.Vreme = vreme;
+            this.Ishod = ishod;
+            this.SusretPP = pp;
         }
 
     }
@@ -751,6 +761,8 @@ namespace LovacNaCudovista
         public virtual string Uslov { get; set; }
         public virtual ProtivmereBasic UslPM { get; set; }
 
+        public UsloviZaPrimenuBasic()
+        { }
         public UsloviZaPrimenuBasic(int iduslova, string uslov)
         {
             IdUslova = iduslova;
@@ -767,6 +779,8 @@ namespace LovacNaCudovista
         public virtual int IdUslova { get; set; }
         public virtual string Uslov { get; set; }
 
+        public UsloviZaPrimenuPregled()
+        { }
         public UsloviZaPrimenuPregled(int iduslova, string uslov)
         {
             IdUslova = iduslova;

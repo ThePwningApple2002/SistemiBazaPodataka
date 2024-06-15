@@ -1,11 +1,4 @@
 ﻿using LovacNaCudovista.Entiteti;
-using NHibernate.Proxy;
-using NHibernate.Stat;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LovacNaCudovista
 {
@@ -29,7 +22,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
 
             }
@@ -55,7 +48,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -79,7 +72,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch
             {
                 //handle exceptions
             }
@@ -98,7 +91,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch
             {
                 //handle exceptions
             }
@@ -119,7 +112,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -147,7 +140,7 @@ namespace LovacNaCudovista
                 
 
             }
-            catch (Exception ec)
+            catch 
             {
 
             }
@@ -171,7 +164,7 @@ namespace LovacNaCudovista
                 }
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 // Handle exceptions
             }
@@ -194,7 +187,7 @@ namespace LovacNaCudovista
                 }
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 // Handle exceptions
             }
@@ -224,7 +217,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -252,7 +245,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -286,7 +279,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -309,7 +302,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -337,7 +330,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -372,7 +365,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -391,7 +384,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -411,7 +404,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch
             {
                 //handle exceptions
             }
@@ -431,7 +424,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -451,7 +444,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -470,7 +463,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -488,7 +481,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -516,7 +509,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -535,7 +528,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -573,7 +566,7 @@ namespace LovacNaCudovista
                     }
                 }
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -603,7 +596,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch
             {
                 //handle exceptions
             }
@@ -636,7 +629,7 @@ namespace LovacNaCudovista
                     }
                 }
             }
-            catch (Exception ec)
+            catch 
             {
                 // Handle exceptions
                
@@ -661,7 +654,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -680,7 +673,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -725,7 +718,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -786,7 +779,7 @@ namespace LovacNaCudovista
                     }
                 }
             }
-            catch (Exception ec)
+            catch 
             {
                 // Handle exceptions
             }
@@ -850,7 +843,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -875,7 +868,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -894,7 +887,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -923,7 +916,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
 
             }
@@ -951,7 +944,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -973,7 +966,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -992,7 +985,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1013,7 +1006,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1041,7 +1034,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
 
             }
@@ -1070,7 +1063,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1097,7 +1090,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1116,7 +1109,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1140,7 +1133,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1169,7 +1162,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
 
             }
@@ -1195,7 +1188,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1220,7 +1213,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1239,7 +1232,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1263,7 +1256,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1287,7 +1280,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1320,7 +1313,7 @@ namespace LovacNaCudovista
 
             s.Close();
         }
-        catch (Exception ec)
+        catch 
         {
             // Handle exceptions
         }
@@ -1344,7 +1337,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
 
             }
@@ -1377,7 +1370,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1401,7 +1394,7 @@ namespace LovacNaCudovista
 
                 s.Close();
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1424,7 +1417,7 @@ namespace LovacNaCudovista
                 s.Close();
 
             }
-            catch (Exception ec)
+            catch 
             {
                 //handle exceptions
             }
@@ -1449,7 +1442,7 @@ namespace LovacNaCudovista
                 }
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
@@ -1474,36 +1467,33 @@ namespace LovacNaCudovista
 
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
         }
 
-        public static List<ProtivmerePregled> vratiProtivmeru()
+        public static ProtivmereBasic vratiProtivmeru(int idpm)
         {
-
-            List<ProtivmerePregled> protivmere = new List<ProtivmerePregled>();
+            ProtivmereBasic pb = null;
             try
             {
                 ISession s = DataLayer.GetSession();
 
-                IEnumerable<Protivmere> sveprotivmere = from o in s.Query<Protivmere>() select o;
-
-                foreach (Protivmere p in sveprotivmere)
+                Protivmere p = s.Get<Protivmere>(idpm);
+                if (p != null)
                 {
-                    protivmere.Add(new ProtivmerePregled(p.IdProtivmere, p.NazivProtivmere, p.OpisProtivmere));
+                    pb = new ProtivmereBasic(p.IdProtivmere, p.NazivProtivmere, p.OpisProtivmere);
                 }
+
                 s.Close();
-
             }
-            catch (Exception ec)
+            catch 
             {
-
+                // Handle exceptions
             }
-            return protivmere;
 
-
+            return pb;
         }
         public static void AzurirajProtivmere(ProtivmereBasic protivmere)
         {
@@ -1525,7 +1515,7 @@ namespace LovacNaCudovista
 
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
@@ -1548,7 +1538,7 @@ namespace LovacNaCudovista
 
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
@@ -1577,7 +1567,7 @@ namespace LovacNaCudovista
                 }
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
@@ -1659,9 +1649,9 @@ namespace LovacNaCudovista
                 // Handle exceptions
             }
         }
-        public static PredmetPregled VratiPredmetPoId(int idPredmeta)
+        public static PredmetBasic VratiPredmetPoId(int idPredmeta)
         {
-            PredmetPregled predmet = null;
+            PredmetBasic predmet = null;
             try
             {
                 ISession session = DataLayer.GetSession();
@@ -1670,7 +1660,7 @@ namespace LovacNaCudovista
 
                 if (pronadjeniPredmet != null)
                 {
-                    predmet = new PredmetPregled(pronadjeniPredmet.IdPredmeta, pronadjeniPredmet.TipPredmeta, pronadjeniPredmet.NazivPredmeta, pronadjeniPredmet.MaterijalPredmeta);
+                    predmet = new PredmetBasic(pronadjeniPredmet.IdPredmeta, pronadjeniPredmet.TipPredmeta, pronadjeniPredmet.NazivPredmeta, pronadjeniPredmet.MaterijalPredmeta);
                 }
 
                 session.Close();
@@ -1888,40 +1878,54 @@ namespace LovacNaCudovista
 
                 IEnumerable<Susret> sviSusreti = session.Query<Susret>();
 
+
                 foreach (Susret susretItem in sviSusreti)
                 {
-                    susreti.Add(new SusretPregled(susretItem.IdSusret, susretItem.Vreme, susretItem.Ishod));
-                }
-                session.Close();
+                    LovacBasic l = DTOManager.vratiLovca(susretItem.LovacSusrtet.IdLovca);
+                    PoznatiPredstavnikBasic p = DTOManager.vratiPozPred(susretItem.SusretPP.IdPozPred);
+                    LokacijaBasic lokacijaBasic = DTOManager.vratiJednuLokaciju(susretItem.SusretLok.IdLokacije);
+
+                    susreti.Add(new SusretPregled(susretItem.IdSusret, l,lokacijaBasic,susretItem.Vreme,susretItem.Ishod,p));
+                };
+                    session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
             return susreti;
         }
 
-        public static void DodajSusret(SusretBasic susret)
+        public static void DodajSusret(SusretBasic susret, LovacBasic l, LokacijaBasic l2, PoznatiPredstavnikBasic p)
         {
             try
             {
-                ISession session = DataLayer.GetSession();
+                using (ISession session = DataLayer.GetSession())
+                {
+                    
+                    Lovac lovac = session.Get<Lovac>(l.IdLovca);
+                    Lokacija lokacija = session.Get<Lokacija>(l2.IdLokacije);
+                    PoznatiPredstavnik poznatiPredstavnik = session.Get<PoznatiPredstavnik>(p.IdPozPred);
 
-                Susret noviSusret = new Susret();
+                    Susret noviSusret = new Susret
+                    {
+                        Vreme = susret.Vreme,
+                        Ishod = susret.Ishod,
+                        LovacSusrtet = lovac,
+                        SusretLok = lokacija,
+                        SusretPP = poznatiPredstavnik
+                    };
 
-                noviSusret.IdSusret = susret.IdSusret;
-                noviSusret.Vreme = susret.Vreme;
-                noviSusret.Ishod = susret.Ishod;
-
-                session.SaveOrUpdate(noviSusret);
-
-                session.Flush();
-
-                session.Close();
+                    session.Save(noviSusret);
+                    session.Flush();
+                    susret.IdSusret = noviSusret.IdSusret;
+                    session.Close();
+                }
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
+               
             }
         }
 
@@ -1931,22 +1935,23 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                Susret postojećiSusret = session.Get<Susret>(susret.IdSusret);
+                Susret postojećiSusret = session.Load<Susret>(susret.IdSusret);
 
                 if (postojećiSusret != null)
                 {
                     postojećiSusret.Vreme = susret.Vreme;
                     postojećiSusret.Ishod = susret.Ishod;
-           
+                    postojećiSusret.LovacSusrtet = session.Load<Lovac>(susret.LovacSusrtet.IdLovca);
+                    postojećiSusret.SusretLok = session.Load<Lokacija>(susret.SusretLok.IdLokacije);
+                    postojećiSusret.SusretPP = session.Load<PoznatiPredstavnik>(susret.SusretPP.IdPozPred);
 
                     session.SaveOrUpdate(postojećiSusret);
-
                     session.Flush();
                 }
 
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
@@ -1958,47 +1963,79 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                Susret postojećiSusret = session.Get<Susret>(idSusreta);
+                Susret postojećiSusret = session.Load<Susret>(idSusreta);
 
                 if (postojećiSusret != null)
                 {
                     session.Delete(postojećiSusret);
-
                     session.Flush();
                 }
 
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
         }
 
-        public static SusretBasic VratiSusret(int idPredmeta)
+        public static SusretBasic VratiSusret(int idSusret)
         {
-            SusretBasic predmet = null;
+            SusretBasic susret = null;
             try
             {
                 ISession session = DataLayer.GetSession();
 
-                Susret pronadjeniSusret = session.Get<Susret>(idPredmeta);
+                
+                Susret pronadjeniSusret = session.Get<Susret>(idSusret);
 
                 if (pronadjeniSusret != null)
                 {
-                    predmet = new SusretBasic(pronadjeniSusret.IdSusret, pronadjeniSusret.Vreme, pronadjeniSusret.Ishod);
-
+                    
+                    susret = new SusretBasic(
+                        pronadjeniSusret.IdSusret,
+                        pronadjeniSusret.LovacSusrtet != null
+                            ? new LovacBasic
+                            {
+                                IdLovca = pronadjeniSusret.LovacSusrtet.IdLovca,
+                                ImeLovca = pronadjeniSusret.LovacSusrtet.ImeLovca
+                            }
+                            : null,
+                        pronadjeniSusret.SusretLok != null
+                            ? new LokacijaBasic
+                            {
+                                IdLokacije = pronadjeniSusret.SusretLok.IdLokacije,
+                                TipLok = pronadjeniSusret.SusretLok.TipLok,
+                                NazivLok = pronadjeniSusret.SusretLok.NazivLok,
+                                ZemljaLok = pronadjeniSusret.SusretLok.ZemljaLok,
+                                Blago = pronadjeniSusret.SusretLok.Blago
+                            }
+                            : null,
+                        pronadjeniSusret.Vreme,
+                        pronadjeniSusret.Ishod,
+                        pronadjeniSusret.SusretPP != null
+                            ? new PoznatiPredstavnikBasic
+                            {
+                                IdPozPred = pronadjeniSusret.SusretPP.IdPozPred,
+                                JedinstvenoIme = pronadjeniSusret.SusretPP.JedinstvenoIme,
+                                Starost = pronadjeniSusret.SusretPP.Starost
+                            }
+                            : null
+                    );
                 }
-                 session.Close();
+                else
+                {
+                    Console.WriteLine("Susret nije pronađen.");
+                }
+                session.Close();
+            
             }
             catch (Exception ex)
             {
                 // Handle exceptions
+                Console.WriteLine($"Greška prilikom vraćanja susreta: {ex.Message}");
             }
-            return predmet;
-
-
-
+            return susret;
         }
 
 
@@ -2013,15 +2050,15 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                IEnumerable<UsloviZaPrimenuBasic> sviUslovi = session.Query<UsloviZaPrimenuBasic>();
+                IEnumerable<UsloviZaPrimenu> sviUslovi = session.Query<UsloviZaPrimenu>();
 
-                foreach (UsloviZaPrimenuBasic uslovItem in sviUslovi)
+                foreach (UsloviZaPrimenu uslovItem in sviUslovi)
                 {
                     uslovi.Add(new UsloviZaPrimenuPregled(uslovItem.IdUslova, uslovItem.Uslov));
                 }
                 session.Close();
             }
-            catch (Exception ex)
+            catch 
             {
                 // Handle exceptions
             }
@@ -2033,22 +2070,25 @@ namespace LovacNaCudovista
             try
             {
                 ISession session = DataLayer.GetSession();
-
-                UsloviZaPrimenu noviUslov = new UsloviZaPrimenu();
-
-                noviUslov.IdUslova = uslov.IdUslova;
-                noviUslov.Uslov = uslov.Uslov;
                 
+                    
+                    Protivmere protivmera = session.Load<Protivmere>(uslov.UslPM.IdProtivmere);
 
-                session.SaveOrUpdate(noviUslov);
+                   
+                    UsloviZaPrimenu noviUslov = new UsloviZaPrimenu
+                    {
+                        Uslov = uslov.Uslov,
+                        UslPM = protivmera
+                    };
 
-                session.Flush();
-
-                session.Close();
+                    session.Save(noviUslov);
+                    session.Flush();
+                    session.Close();
+                
             }
             catch (Exception ex)
             {
-                // Handle exceptions
+                
             }
         }
 
@@ -2058,15 +2098,14 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                UsloviZaPrimenuBasic postojećiUslov = session.Get<UsloviZaPrimenuBasic>(uslov.IdUslova);
+                UsloviZaPrimenu postojećiUslov = session.Load<UsloviZaPrimenu>(uslov.IdUslova);
 
                 if (postojećiUslov != null)
                 {
                     postojećiUslov.Uslov = uslov.Uslov;
-               
+                    postojećiUslov.UslPM = session.Load<Protivmere>(uslov.UslPM.IdProtivmere);
 
                     session.SaveOrUpdate(postojećiUslov);
-
                     session.Flush();
                 }
 
@@ -2084,12 +2123,11 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                UsloviZaPrimenuBasic uslov = session.Get<UsloviZaPrimenuBasic>(idUslova);
+                UsloviZaPrimenu uslov = session.Load<UsloviZaPrimenu>(idUslova);
 
                 if (uslov != null)
                 {
                     session.Delete(uslov);
-
                     session.Flush();
                 }
 
@@ -2100,19 +2138,26 @@ namespace LovacNaCudovista
                 // Handle exceptions
             }
         }
-        public static UsloviZaPrimenuPregled vratiUslov(int idUslova)
+        public static UsloviZaPrimenuBasic vratiUslov(int idUslova)
         {
-            UsloviZaPrimenuPregled predmet = null;
+            UsloviZaPrimenuBasic predmet = null;
             try
             {
                 ISession session = DataLayer.GetSession();
 
-                UsloviZaPrimenu pronadjiUslov = session.Get<UsloviZaPrimenu>(idUslova);
+                UsloviZaPrimenu uslov = session.Get<UsloviZaPrimenu>(idUslova);
 
-                if (pronadjiUslov != null)
+                if (uslov != null)
                 {
-                    predmet = new UsloviZaPrimenuPregled(pronadjiUslov.IdUslova, pronadjiUslov.Uslov);
-
+                    predmet = new UsloviZaPrimenuBasic(uslov.IdUslova, uslov.Uslov)
+                    {
+                        UslPM = new ProtivmereBasic
+                        {
+                            IdProtivmere = uslov.UslPM.IdProtivmere,
+                            NazivProtivmere = uslov.UslPM.NazivProtivmere,
+                            OpisProtivmere = uslov.UslPM.OpisProtivmere
+                        }
+                    };
                 }
                 session.Close();
             }
@@ -2121,11 +2166,8 @@ namespace LovacNaCudovista
                 // Handle exceptions
             }
             return predmet;
-
-
-
-            #endregion
         }
+        #endregion
 
     }
 }

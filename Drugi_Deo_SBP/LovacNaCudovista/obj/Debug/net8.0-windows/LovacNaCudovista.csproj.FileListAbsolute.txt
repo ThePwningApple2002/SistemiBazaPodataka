@@ -88,3 +88,12 @@ C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacN
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretAddForm.resources
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretForm.resources
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretUpdateForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetUpdateForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraUpdateForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
+C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
