@@ -37,7 +37,6 @@
             btnIzmeniZastitu = new Button();
             btnObrisiZastitu = new Button();
             btnDodajZastitu = new Button();
-            columnHeader4 = new ColumnHeader();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -47,20 +46,20 @@
             groupBox1.Controls.Add(listaZastita);
             groupBox1.Location = new Point(26, 29);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(561, 361);
+            groupBox1.Size = new Size(410, 361);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Zastita";
             // 
             // listaZastita
             // 
-            listaZastita.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
+            listaZastita.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3 });
             listaZastita.Dock = DockStyle.Fill;
             listaZastita.FullRowSelect = true;
             listaZastita.GridLines = true;
             listaZastita.Location = new Point(3, 23);
             listaZastita.Name = "listaZastita";
-            listaZastita.Size = new Size(555, 335);
+            listaZastita.Size = new Size(404, 335);
             listaZastita.TabIndex = 4;
             listaZastita.UseCompatibleStateImageBehavior = false;
             listaZastita.View = View.Details;
@@ -124,11 +123,7 @@
             btnDodajZastitu.TabIndex = 1;
             btnDodajZastitu.Text = "Dodaj Zastitu";
             btnDodajZastitu.UseVisualStyleBackColor = true;
-            // 
-            // columnHeader4
-            // 
-            columnHeader4.Text = "Predmet Lokacija";
-            columnHeader4.Width = 150;
+            btnDodajZastitu.Click += btnDodajZastitu_Click;
             // 
             // ZastitaForm
             // 
@@ -139,6 +134,7 @@
             Controls.Add(groupBox1);
             Name = "ZastitaForm";
             Text = "ZastitaForm";
+            Load += ZastitaForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
@@ -156,6 +152,5 @@
         private Button btnIzmeniZastitu;
         private Button btnObrisiZastitu;
         private Button btnDodajZastitu;
-        private ColumnHeader columnHeader4;
     }
 }

@@ -5,6 +5,8 @@ iz sve manytomany tabele izbacen surogat kljuc
 brdo not nullable stvari sto smo bili autisticni da stavimo
 
 
+
 todo
-zastita i njene metode u dtomanager/dto 
-lokacija forme i metode ako treba u dto/manager
+bajalica, predmet,susret,protivmere,uslovi za primenu
+bajalica #1
+ipak lovac

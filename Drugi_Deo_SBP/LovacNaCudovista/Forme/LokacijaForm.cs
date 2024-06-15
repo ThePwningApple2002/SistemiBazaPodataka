@@ -12,41 +12,110 @@ namespace LovacNaCudovista.Forme
 {
     public partial class LokacijaForm : Form
     {
-        public LokacijaForm()
+        private int idLegende, idLokacije;
+        public LokacijaForm(int idLegende)
         {
             InitializeComponent();
+            this.idLegende = idLegende;
+            this.idLokacije = DTOManager.VratiIdLokacijePoIdLegende(idLegende);
+
         }
 
         private void LokacijaForm_Load(object sender, EventArgs e)
         {
-            //popuniPodacima();
+            popuniPodacima();
             this.Text = $"INFORMACIJE O LOKACIJAMA";
 
         }
 
-        /*public void popuniPodacima()
+        public void popuniPodacima()
         {
 
 
             listaLokacija.Items.Clear();
-            List<CudovistePregled> podaci = DTOManager.vratiLok();
+            List<LokacijaPregled> podaci = DTOManager.vratiLokacijuLegende(new LegendaBasic { IdLegende = this.idLegende });
 
 
-            foreach (CudovistePregled p in podaci)
+            foreach (LokacijaPregled p in podaci)
             {
                 ListViewItem item = new ListViewItem(new string[]
                 {
-                    p.IdCudovista.ToString(),
-                    p.NazivCud,
-                    p.PodTipCud,
-                    p.VekPomCud.ToString(),
+                    p.IdLokacije.ToString(),
+                    p.TipLok,
+                    p.NazivLok,
+                    p.ZemljaLok,
+                    p.Blago,
                 });
                 listaLokacija.Items.Add(item);
             }
 
             listaLokacija.Refresh();
         }
-        */
+
+        private void btnDodajLok_Click(object sender, EventArgs e)
+        {
+            LokacijaAddForm formaDodaj = new LokacijaAddForm(idLegende);
+            formaDodaj.ShowDialog();
+            this.popuniPodacima();
+        }
+
+        private void btnObrisiLok_Click(object sender, EventArgs e)
+        {
+            if (listaLokacija.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite lokaciju koju zelite da obrisete!");
+                return;
+            }
+
+            int idLokacije = Int32.Parse(listaLokacija.SelectedItems[0].SubItems[0].Text);
+            string poruka = "Da li zelite da obrisete izabranu lokaciju?";
+            string title = "Pitanje";
+            MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
+            DialogResult result = MessageBox.Show(poruka, title, buttons);
+
+            if (result == DialogResult.OK)
+            {
+                DTOManager.obrisiLokaciju(idLokacije);
+                MessageBox.Show("Brisanje lokacije je uspesno obavljeno!");
+                this.popuniPodacima();
+            }
+            else
+            {
+
+            }
+        }
+
+        private void btnIzmeniLok_Click(object sender, EventArgs e)
+        {
+            if (listaLokacija.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite legendu cije podatke zelite da izmenite!");
+                return;
+            }
+
+            int idLokacije = Int32.Parse(listaLokacija.SelectedItems[0].SubItems[0].Text);
+            LokacijaBasic ob = DTOManager.vratiJednuLokaciju(idLokacije);
+
+
+            LokacijaUpdateForm formaUpdate = new LokacijaUpdateForm(ob);
+            formaUpdate.ShowDialog();
+
+            this.popuniPodacima();
+        }
+
+        private void btnZastita_Click(object sender, EventArgs e)
+        {
+            if (listaLokacija.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite cudoviste ciju zastitu zelite da vidite!");
+                return;
+            }
+            int idLokacije = Int32.Parse(listaLokacija.SelectedItems[0].SubItems[0].Text);
+
+            ZastitaForm forma = new ZastitaForm(idLokacije);
+            forma.ShowDialog();
+            this.popuniPodacima();
+        }
     }
 
 }

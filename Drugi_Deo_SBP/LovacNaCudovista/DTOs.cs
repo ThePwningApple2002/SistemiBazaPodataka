@@ -666,13 +666,17 @@ namespace LovacNaCudovista
         public virtual string? NazivZastite { get; set; }
         public virtual LokacijaBasic PredmetLokacija { get; set; }
 
-        public ZastitaBasic(int idZastite, string? tipzastite, string? nazivzastite, LokacijaBasic predmetLokacija) {
+        public ZastitaBasic(int idZastite, string? tipzastite, string? nazivzastite, LokacijaBasic PredmetLokacija) {
 
             IdZastite = idZastite;
             TipZastite = tipzastite;
             NazivZastite = nazivzastite;
-            PredmetLokacija = predmetLokacija;
+            PredmetLokacija = PredmetLokacija;
 
+        }
+        public ZastitaBasic()
+        {
+            PredmetLokacija = new LokacijaBasic();
         }
 
     }
@@ -683,13 +687,13 @@ namespace LovacNaCudovista
         public virtual string? TipZastite { get; set; }
         public virtual string? NazivZastite { get; set; }
         public virtual LokacijaBasic PredmetLokacija { get; set; }
-        public ZastitaPregled(int idZastite, string? tipzastite, string? nazivzastite,LokacijaBasic predmetLokacija)
+        public ZastitaPregled(int idZastite, string? tipzastite, string? nazivzastite,LokacijaBasic PredmetLokacija)
         {
 
             IdZastite = idZastite;
             TipZastite = tipzastite;
             NazivZastite = nazivzastite;
-            PredmetLokacija = predmetLokacija;
+            PredmetLokacija = PredmetLokacija;
             
 
         }
@@ -709,10 +713,11 @@ namespace LovacNaCudovista
         public virtual string Ishod { get; set; }
 
         public virtual PoznatiPredstavnikBasic SusretPP { get; set; }
+        public SusretBasic() { }
 
         public SusretBasic(int idSusret, string vreme, string ishod)
         {
-            IdSusret = idSusret;
+            IdSusret = IdSusret;
             Vreme = vreme;
             Ishod = ishod;
         }

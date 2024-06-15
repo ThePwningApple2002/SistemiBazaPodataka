@@ -42,7 +42,7 @@
             btnNeMagCud = new Button();
             btnMagCud = new Button();
             btnPozPred = new Button();
-            btnLokacija = new Button();
+            btnBajalica = new Button();
             btnProtivmere = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
@@ -184,16 +184,16 @@
             btnPozPred.UseVisualStyleBackColor = true;
             btnPozPred.Click += btnPozPred_Click;
             // 
-            // btnLokacija
+            // btnBajalica
             // 
-            btnLokacija.AutoSize = true;
-            btnLokacija.Location = new Point(672, 414);
-            btnLokacija.Name = "btnLokacija";
-            btnLokacija.Size = new Size(164, 43);
-            btnLokacija.TabIndex = 7;
-            btnLokacija.Text = "Lokacija";
-            btnLokacija.UseVisualStyleBackColor = true;
-            btnLokacija.Click += btnLokacija_Click;
+            btnBajalica.AutoSize = true;
+            btnBajalica.Location = new Point(672, 414);
+            btnBajalica.Name = "btnBajalica";
+            btnBajalica.Size = new Size(164, 43);
+            btnBajalica.TabIndex = 7;
+            btnBajalica.Text = "ne znam";
+            btnBajalica.UseVisualStyleBackColor = true;
+            btnBajalica.Click += btnBajalica_Click;
             // 
             // btnProtivmere
             // 
@@ -211,7 +211,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(870, 520);
             Controls.Add(btnProtivmere);
-            Controls.Add(btnLokacija);
+            Controls.Add(btnBajalica);
             Controls.Add(btnPozPred);
             Controls.Add(groupBox3);
             Controls.Add(groupBox2);
@@ -244,7 +244,7 @@
         private Button btnNeMagCud;
         private Button btnMagCud;
         private Button btnPozPred;
-        private Button btnLokacija;
+        private Button btnBajalica;
         private Button btnProtivmere;
     }
 }

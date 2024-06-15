@@ -106,9 +106,14 @@ namespace LovacNaCudovista.Forme
                 return;
             }
             int idPozPred = Int32.Parse(listaPozPredstavnik.SelectedItems[0].SubItems[0].Text);
-             
+
             LegendaForm forma = new LegendaForm(cudovisteId, idPozPred);
             forma.ShowDialog();
+        }
+
+        private void btnLokacija_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

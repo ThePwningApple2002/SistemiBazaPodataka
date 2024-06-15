@@ -129,10 +129,10 @@ namespace LovacNaCudovista.Forme
 
         }
 
-        private void btnLokacija_Click(object sender, EventArgs e)
+        private void btnBajalica_Click(object sender, EventArgs e)
         {
-            LokacijaForm forma = new LokacijaForm();
-            forma.ShowDialog();
+            
+
         }
     }
 

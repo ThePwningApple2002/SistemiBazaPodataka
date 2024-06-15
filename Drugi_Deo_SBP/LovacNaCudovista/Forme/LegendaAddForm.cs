@@ -13,8 +13,8 @@ namespace LovacNaCudovista.Forme
     public partial class LegendaAddForm : Form
     {
         LegendaBasic legenda;
-        private int idCud, idPozPred;
-        public LegendaAddForm(int idCud, int idPozPred)
+        private int idPozPred;
+        public LegendaAddForm(int idPozPred)
         {
             InitializeComponent();
             legenda = new LegendaBasic();

@@ -39,6 +39,7 @@
             btnObrisiPozPred = new Button();
             btnDodajPozPred = new Button();
             btnLegenda = new Button();
+            btnLokacija = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -144,11 +145,23 @@
             btnLegenda.UseVisualStyleBackColor = true;
             btnLegenda.Click += btnLegenda_Click;
             // 
+            // btnLokacija
+            // 
+            btnLokacija.AutoSize = true;
+            btnLokacija.Location = new Point(809, 301);
+            btnLokacija.Name = "btnLokacija";
+            btnLokacija.Size = new Size(150, 43);
+            btnLokacija.TabIndex = 6;
+            btnLokacija.Text = "ne znam";
+            btnLokacija.UseVisualStyleBackColor = true;
+            btnLokacija.Click += btnLokacija_Click;
+            // 
             // PoznatiPredstavnikForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1023, 450);
+            Controls.Add(btnLokacija);
             Controls.Add(btnLegenda);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -175,5 +188,6 @@
         private Button btnObrisiPozPred;
         private Button btnDodajPozPred;
         private Button btnLegenda;
+        private Button btnLokacija;
     }
 }

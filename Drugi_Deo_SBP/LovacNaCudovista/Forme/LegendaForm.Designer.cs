@@ -38,6 +38,7 @@
             btnIzmeniLeg = new Button();
             btnObrisiLeg = new Button();
             btnDodajLeg = new Button();
+            btnLokacijaLeg = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -132,11 +133,23 @@
             btnDodajLeg.UseVisualStyleBackColor = true;
             btnDodajLeg.Click += btnDodajLeg_Click;
             // 
+            // btnLokacijaLeg
+            // 
+            btnLokacijaLeg.AutoSize = true;
+            btnLokacijaLeg.Location = new Point(893, 243);
+            btnLokacijaLeg.Name = "btnLokacijaLeg";
+            btnLokacijaLeg.Size = new Size(134, 43);
+            btnLokacijaLeg.TabIndex = 4;
+            btnLokacijaLeg.Text = "Lokacija Legende";
+            btnLokacijaLeg.UseVisualStyleBackColor = true;
+            btnLokacijaLeg.Click += btnLokacijaLeg_Click;
+            // 
             // LegendaForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1229, 494);
+            Controls.Add(btnLokacijaLeg);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "LegendaForm";
@@ -146,6 +159,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -160,5 +174,6 @@
         private Button btnIzmeniLeg;
         private Button btnObrisiLeg;
         private Button btnDodajLeg;
+        private Button btnLokacijaLeg;
     }
 }

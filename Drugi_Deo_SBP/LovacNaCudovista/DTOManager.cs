@@ -705,8 +705,22 @@ namespace LovacNaCudovista
 
                 foreach (Lokacija r in sveLokacije)
                 {
-                    //lokacije.Add(new LokacijaPregled(r.IdLokacije, r.TipLok, r.NazivLok, r.ZemljaLok, r.Blago, DTOManager.vratiLeg(r.LegendaLokacije.IdLegende)));
+                    LokacijaPregled lokacijaPregled = new LokacijaPregled(
+                        r.IdLokacije,
+                        r.TipLok,
+                        r.NazivLok,
+                        r.ZemljaLok,
+                        r.Blago,
+                        new LegendaBasic
+                        {
+                            IdLegende = r.LegendaLokacije.IdLegende,
+                            PrvoPominjanje = r.LegendaLokacije.PrvoPominjanje,
+                            TekstLegende = r.LegendaLokacije.TekstLegende,
+                            ZemljaPorekla = r.LegendaLokacije.ZemljaPorekla
+                        }
+                    );
 
+                    lokacije.Add(lokacijaPregled);
                 }
 
                 s.Close();
@@ -718,29 +732,101 @@ namespace LovacNaCudovista
 
             return lokacije;
         }
-
-        public static LokacijaBasic vratiLok(int id)
+        public static int VratiIdLokacijePoIdLegende(int idLegende)
         {
-
-            LokacijaBasic pb = new LokacijaBasic();
+            int idLokacije = 0;
             try
             {
-                ISession s = DataLayer.GetSession();
+                using (ISession s = DataLayer.GetSession())
+                {
+                    // Učitajte objekat Legenda koristeći ID legende
+                    Legenda legenda = s.Load<Legenda>(idLegende);
 
-                Lokacija o = s.Load<Lokacija>(id);
-                pb = new LokacijaBasic(o.IdLokacije, o.TipLok, o.NazivLok, o.ZemljaLok, o.Blago, DTOManager.vratiLegende(o.LegendaLokacije.IdLegende));
+                    if (legenda != null && legenda.Lokacije != null && legenda.Lokacije.Count > 0)
+                    {
+                        // Pretpostavljamo da postoji samo jedna povezana lokacija po legendi
+                        idLokacije = legenda.Lokacije.First().IdLokacije;
+                    }
 
-                s.Close();
+                    s.Close();
+                }
             }
             catch (Exception ec)
             {
-                //handle exceptions
+                // Handle exceptions
+                Console.WriteLine("Greška: " + ec.Message);
             }
 
-            return pb;
+            return idLokacije;
         }
 
-        public static void dodajLegendu(LegendaBasic p, LokacijaBasic l)
+        public static List<LokacijaBasic> vratiLok(int id)
+        {
+            List<LokacijaBasic> lokacije = new List<LokacijaBasic>();
+            try
+            {
+                using (ISession session = DataLayer.GetSession())
+                {
+                    IEnumerable<Lokacija> lokacijeEntiteti = session.Query<Lokacija>()
+                        .Where(l => l.IdLokacije == id);
+
+                    foreach (Lokacija lokacija in lokacijeEntiteti)
+                    {
+                        LokacijaBasic lokBasic = new LokacijaBasic
+                        {
+                            IdLokacije = lokacija.IdLokacije,
+                            TipLok = lokacija.TipLok,
+                            NazivLok = lokacija.NazivLok,
+                            ZemljaLok = lokacija.ZemljaLok,
+                            Blago = lokacija.Blago,
+                            LegendaLokacije = DTOManager.vratiLegende(lokacija.LegendaLokacije.IdLegende)
+                        };
+
+                        lokacije.Add(lokBasic);
+                    }
+                }
+            }
+            catch (Exception ec)
+            {
+                // Handle exceptions
+            }
+
+            return lokacije;
+        }
+        public static LokacijaBasic vratiJednuLokaciju(int idLokacije)
+        {
+            LokacijaBasic lokacija = null;
+            try
+            {
+                using (ISession session = DataLayer.GetSession())
+                {
+                    Lokacija l = session.Query<Lokacija>().FirstOrDefault(x => x.IdLokacije == idLokacije);
+
+                    if (l != null)
+                    {
+                        lokacija = new LokacijaBasic
+                        {
+                            IdLokacije = l.IdLokacije,
+                            TipLok = l.TipLok,
+                            NazivLok = l.NazivLok,
+                            ZemljaLok = l.ZemljaLok,
+                            Blago = l.Blago
+                        };
+                    }
+
+                    session.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                Console.WriteLine("Greška: " + ex.Message);
+            }
+
+            return lokacija;
+        }
+
+        public static void dodajLokaciju(LegendaBasic p, LokacijaBasic l)
         {
             try
             {
@@ -749,6 +835,7 @@ namespace LovacNaCudovista
                 Lokacija f = new Lokacija();
                 f.IdLokacije = l.IdLokacije;
                 f.TipLok = l.TipLok;
+                f.NazivLok = l.NazivLok;
                 f.ZemljaLok = l.ZemljaLok;
                 f.Blago = l.Blago;
 
@@ -793,7 +880,7 @@ namespace LovacNaCudovista
                 //handle exceptions
             }
         }
-        public static void obrisiLokaciju(string idLok)
+        public static void obrisiLokaciju(int idLok)
         {
             try
             {
@@ -1612,8 +1699,7 @@ namespace LovacNaCudovista
 
                 foreach (Zastita zastitaItem in sveZastite)
                 {
-                    LokacijaBasic predmetLokacija;
-                    predmetLokacija = new LokacijaBasic
+                    LokacijaBasic predmetLokacija = new LokacijaBasic
                     {
                         IdLokacije = zastitaItem.PredmetLokacija.IdLokacije,
                         TipLok = zastitaItem.PredmetLokacija.TipLok,
@@ -1621,9 +1707,16 @@ namespace LovacNaCudovista
                         ZemljaLok = zastitaItem.PredmetLokacija.ZemljaLok,
                         Blago = zastitaItem.PredmetLokacija.Blago
                     };
-                    //zastite.Add(new ZastitaPregled(zastitaItem.IdZastite, zastitaItem.TipZastite, zastitaItem.NazivZastite));
+
+                    ZastitaPregled zastitaPregled = new ZastitaPregled(
+                        zastitaItem.IdZastite,
+                        zastitaItem.TipZastite,
+                        zastitaItem.NazivZastite,
+                        predmetLokacija
+                    );
+                    zastite.Add(zastitaPregled);
                 }
-                session.Close();
+                    session.Close();
             }
             catch (Exception ex)
             {
@@ -1632,28 +1725,68 @@ namespace LovacNaCudovista
             return zastite;
         }
 
-        public static void DodajZastitu(ZastitaBasic zastita)
+        public static List<ZastitaPregled> VratiZastiteZaLokaciju(int idLokacija)
         {
+            List<ZastitaPregled> zastite = new List<ZastitaPregled>();
             try
             {
-                ISession session = DataLayer.GetSession();
+                using (ISession session = DataLayer.GetSession())
+                {
+                    IEnumerable<Zastita> sveZastite = from z in session.Query<Zastita>()
+                                                      where z.PredmetLokacija.IdLokacije == idLokacija
+                                                      select z;
 
-                Zastita novaZastita = new Zastita();
+                    foreach (Zastita zastita in sveZastite)
+                    {
+                        LokacijaBasic lokacija = new LokacijaBasic
+                        {
+                            IdLokacije = zastita.PredmetLokacija.IdLokacije,
+                            TipLok = zastita.PredmetLokacija.TipLok,
+                            NazivLok = zastita.PredmetLokacija.NazivLok,
+                            ZemljaLok = zastita.PredmetLokacija.ZemljaLok,
+                            Blago = zastita.PredmetLokacija.Blago
+                        };
 
-                novaZastita.IdZastite = zastita.IdZastite;
-                novaZastita.TipZastite = zastita.TipZastite;
-                novaZastita.NazivZastite = zastita.NazivZastite;
-                //novaZastita PredmetLokacija = zastita.PredmetLokacija;
-
-                session.SaveOrUpdate(novaZastita);
-
-                session.Flush();
-
-                session.Close();
+                        ZastitaPregled zp = new ZastitaPregled(
+                            zastita.IdZastite,
+                            zastita.TipZastite,
+                            zastita.NazivZastite,
+                            lokacija
+                        );
+                        zastite.Add(zp);
+                    }
+                }
             }
             catch (Exception ex)
             {
-                // Handle exceptions
+                Console.WriteLine("Greška: " + ex.Message);
+            }
+            return zastite;
+        }
+
+        public static void DodajZastitu(LokacijaBasic l, ZastitaBasic z)
+        {
+            try
+            {
+                using (ISession s = DataLayer.GetSession())
+                {
+                    Lokacija lokacija = s.Get<Lokacija>(l.IdLokacije);
+                   
+                    Zastita novaZastita = new Zastita
+                    {
+                        TipZastite = z.TipZastite,
+                        NazivZastite = z.NazivZastite,
+                        PredmetLokacija = lokacija
+                    };
+
+                    s.Save(novaZastita);
+                    s.Flush();
+                    s.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                
             }
         }
 
@@ -1663,17 +1796,13 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                Zastita postojećaZastita = session.Get<Zastita>(zastita.IdZastite);
+                Zastita z = session.Load<Zastita>(zastita.IdZastite);
 
-                if (postojećaZastita != null)
+                if (z != null)
                 {
-
-                    postojećaZastita.IdZastite = zastita.IdZastite;
-                    postojećaZastita.TipZastite = zastita.TipZastite;
-                    postojećaZastita.NazivZastite = zastita.NazivZastite;
-
-                    session.SaveOrUpdate(postojećaZastita);
-
+                    z.TipZastite = zastita.TipZastite;
+                    z.NazivZastite = zastita.NazivZastite;
+                    session.SaveOrUpdate(z);
                     session.Flush();
                 }
 
@@ -1691,12 +1820,11 @@ namespace LovacNaCudovista
             {
                 ISession session = DataLayer.GetSession();
 
-                Zastita postojećaZastita = session.Get<Zastita>(idZastite);
+                Zastita postojecaZastita = session.Load<Zastita>(idZastite);
 
-                if (postojećaZastita != null)
+                if (postojecaZastita != null)
                 {
-                    session.Delete(postojećaZastita);
-
+                    session.Delete(postojecaZastita);
                     session.Flush();
                 }
 
@@ -1708,9 +1836,9 @@ namespace LovacNaCudovista
             }
         }
 
-        public static ZastitaPregled VratiZastita(int idPredmeta)
+        public static ZastitaBasic VratiZastita(int idPredmeta)
         {
-            ZastitaPregled predmet = null;
+            ZastitaBasic predmet = null;
             try
             {
                 ISession session = DataLayer.GetSession();
@@ -1719,10 +1847,22 @@ namespace LovacNaCudovista
 
                 if (pronadjeniZastitu != null)
                 {
-                    //predmet = new ZastitaPregled(pronadjeniZastitu.IdZastite, pronadjeniZastitu.TipZastite, pronadjeniZastitu.NazivZastite);
+                    predmet = new ZastitaBasic(
+                    pronadjeniZastitu.IdZastite,
+                    pronadjeniZastitu.TipZastite,
+                    pronadjeniZastitu.NazivZastite,
+                    new LokacijaBasic
+                    {
+                        IdLokacije = pronadjeniZastitu.PredmetLokacija.IdLokacije,
+                        TipLok = pronadjeniZastitu.PredmetLokacija.TipLok,
+                        NazivLok = pronadjeniZastitu.PredmetLokacija.NazivLok,
+                        ZemljaLok = pronadjeniZastitu.PredmetLokacija.ZemljaLok,
+                        Blago = pronadjeniZastitu.PredmetLokacija.Blago
+                    }
+                );
                 }
 
-                session.Close();
+                    session.Close();
             }
             catch (Exception ex)
             {
@@ -1835,9 +1975,9 @@ namespace LovacNaCudovista
             }
         }
 
-        public static SusretPregled VratiSusret(int idPredmeta)
+        public static SusretBasic VratiSusret(int idPredmeta)
         {
-            SusretPregled predmet = null;
+            SusretBasic predmet = null;
             try
             {
                 ISession session = DataLayer.GetSession();
@@ -1846,7 +1986,7 @@ namespace LovacNaCudovista
 
                 if (pronadjeniSusret != null)
                 {
-                    predmet = new SusretPregled(pronadjeniSusret.IdSusret, pronadjeniSusret.Vreme, pronadjeniSusret.Ishod);
+                    predmet = new SusretBasic(pronadjeniSusret.IdSusret, pronadjeniSusret.Vreme, pronadjeniSusret.Ishod);
 
                 }
                  session.Close();

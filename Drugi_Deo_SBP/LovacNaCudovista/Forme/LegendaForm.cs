@@ -13,12 +13,12 @@ namespace LovacNaCudovista.Forme
 {
     public partial class LegendaForm : Form
     {
-        private int idPozPred, idCudovista;
+        private int idPozPred;
         public LegendaForm(int idCud, int id)
         {
             InitializeComponent();
             this.idPozPred = id;
-            this.idCudovista = idCud; 
+
 
         }
         public void LegendaForm_Load(object sender, EventArgs e)
@@ -49,9 +49,9 @@ namespace LovacNaCudovista.Forme
 
         private void btnDodajLeg_Click(object sender, EventArgs e)
         {
-            
 
-            LegendaAddForm formaDodaj = new LegendaAddForm(idCudovista,idPozPred);
+
+            LegendaAddForm formaDodaj = new LegendaAddForm(idPozPred);
             formaDodaj.ShowDialog();
             this.popuniPodacima();
         }
@@ -98,5 +98,21 @@ namespace LovacNaCudovista.Forme
 
             }
         }
+
+        private void btnLokacijaLeg_Click(object sender, EventArgs e)
+        {
+            if(listaLegenda.SelectedItems.Count == 0)
+            {
+                MessageBox.Show("Izaberite cudoviste ciju lokaciju zelite da vidite!");
+                return;
+            }
+            int idLegende = Int32.Parse(listaLegenda.SelectedItems[0].SubItems[0].Text);
+
+            LokacijaForm forma = new LokacijaForm(idLegende);
+            forma.ShowDialog();
+        }
+
+        
     }
+
 }

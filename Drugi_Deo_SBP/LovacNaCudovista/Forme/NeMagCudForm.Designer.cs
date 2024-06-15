@@ -46,6 +46,7 @@
             columnHeader10 = new ColumnHeader();
             columnHeader11 = new ColumnHeader();
             columnHeader12 = new ColumnHeader();
+            btnBajalica = new Button();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -174,11 +175,23 @@
             // 
             columnHeader12.Text = "Tezina";
             // 
+            // btnBajalica
+            // 
+            btnBajalica.AutoSize = true;
+            btnBajalica.Location = new Point(1183, 251);
+            btnBajalica.Name = "btnBajalica";
+            btnBajalica.Size = new Size(132, 43);
+            btnBajalica.TabIndex = 4;
+            btnBajalica.Text = "Bajalica";
+            btnBajalica.UseVisualStyleBackColor = true;
+            btnBajalica.Click += btnBajalica_Click;
+            // 
             // NeMagCudForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1363, 660);
+            Controls.Add(btnBajalica);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "NeMagCudForm";
@@ -188,6 +201,7 @@
             groupBox2.PerformLayout();
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -210,5 +224,6 @@
         private ColumnHeader columnHeader10;
         private ColumnHeader columnHeader11;
         private ColumnHeader columnHeader12;
+        private Button btnBajalica;
     }
 }

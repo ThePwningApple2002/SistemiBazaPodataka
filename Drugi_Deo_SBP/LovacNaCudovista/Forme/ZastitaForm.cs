@@ -12,9 +12,11 @@ namespace LovacNaCudovista.Forme
 {
     public partial class ZastitaForm : Form
     {
-        public ZastitaForm()
+        private int idLokacija;
+        public ZastitaForm(int idLokacija)
         {
             InitializeComponent();
+            this.idLokacija = idLokacija;
         }
 
         private void ZastitaForm_Load(object sender, EventArgs e)
@@ -29,7 +31,7 @@ namespace LovacNaCudovista.Forme
 
 
             listaZastita.Items.Clear();
-            List<ZastitaPregled> podaci = DTOManager.VratiSveZastite();
+            List<ZastitaPregled> podaci = DTOManager.VratiZastiteZaLokaciju(idLokacija);
 
 
             foreach (ZastitaPregled p in podaci)
@@ -63,7 +65,7 @@ namespace LovacNaCudovista.Forme
 
             if (result == DialogResult.OK)
             {
-                DTOManager.obrisiCudoviste(idZastite);
+                DTOManager.ObrisiZastitu(idZastite);
                 MessageBox.Show("Brisanje zastite je uspesno obavljeno!");
                 this.popuniPodacima();
             }
@@ -82,12 +84,19 @@ namespace LovacNaCudovista.Forme
             }
 
             int idZastite = Int32.Parse(listaZastita.SelectedItems[0].SubItems[0].Text);
-            //ZastitaBasic ob = DTOManager.VratiZastita(idZastite);
+            ZastitaBasic ob = DTOManager.VratiZastita(idZastite);
 
-            //ZastitaUpdateForm formaUpdate = new ZastitaUpdateForm(ob);
-            //formaUpdate.ShowDialog();
+            ZastitaUpdateForm formaUpdate = new ZastitaUpdateForm(ob);
+            formaUpdate.ShowDialog();
 
             this.popuniPodacima();
+        }
+
+        private void btnDodajZastitu_Click(object sender, EventArgs e)
+        {
+            ZastitaAddForm formaDodaj = new ZastitaAddForm(idLokacija);
+            formaDodaj.ShowDialog();
+            popuniPodacima();
         }
     }
 }

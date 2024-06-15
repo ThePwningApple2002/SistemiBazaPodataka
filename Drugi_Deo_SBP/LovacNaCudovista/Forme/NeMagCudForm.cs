@@ -103,5 +103,12 @@ namespace LovacNaCudovista.Forme
             this.popuniPodacima();
 
         }
+
+        private void btnBajalica_Click(object sender, EventArgs e)
+        {
+            BajalicaForm forma = new BajalicaForm();
+            forma.ShowDialog();
+            this.popuniPodacima();
+        }
     }
 }

@@ -221,7 +221,7 @@
             btnAzuriraj.Name = "btnAzuriraj";
             btnAzuriraj.Size = new Size(203, 58);
             btnAzuriraj.TabIndex = 7;
-            btnAzuriraj.Text = "Dodaj";
+            btnAzuriraj.Text = "Azuriraj";
             btnAzuriraj.UseVisualStyleBackColor = true;
             // 
             // txbVekPom

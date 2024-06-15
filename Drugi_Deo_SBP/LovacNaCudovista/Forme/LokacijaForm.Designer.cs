@@ -35,11 +35,11 @@
             columnHeader3 = new ColumnHeader();
             columnHeader4 = new ColumnHeader();
             columnHeader5 = new ColumnHeader();
-            columnHeader6 = new ColumnHeader();
             groupBox2 = new GroupBox();
-            btnIzmeniCud = new Button();
-            btnObrisiCud = new Button();
-            btnDodajCud = new Button();
+            btnIzmeniLok = new Button();
+            btnObrisiLok = new Button();
+            btnDodajLok = new Button();
+            btnZastita = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -56,7 +56,7 @@
             // 
             // listaLokacija
             // 
-            listaLokacija.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader6 });
+            listaLokacija.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5 });
             listaLokacija.Dock = DockStyle.Fill;
             listaLokacija.FullRowSelect = true;
             listaLokacija.GridLines = true;
@@ -93,67 +93,79 @@
             // columnHeader5
             // 
             columnHeader5.Text = "Blago";
-            columnHeader5.Width = 100;
-            // 
-            // columnHeader6
-            // 
-            columnHeader6.Text = "Id Legende";
-            columnHeader6.Width = 100;
+            columnHeader5.Width = 200;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(btnIzmeniCud);
-            groupBox2.Controls.Add(btnObrisiCud);
-            groupBox2.Controls.Add(btnDodajCud);
+            groupBox2.Controls.Add(btnIzmeniLok);
+            groupBox2.Controls.Add(btnObrisiLok);
+            groupBox2.Controls.Add(btnDodajLok);
             groupBox2.Location = new Point(817, 34);
             groupBox2.Name = "groupBox2";
             groupBox2.Size = new Size(208, 183);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
             // 
-            // btnIzmeniCud
+            // btnIzmeniLok
             // 
-            btnIzmeniCud.AutoSize = true;
-            btnIzmeniCud.Location = new Point(40, 121);
-            btnIzmeniCud.Name = "btnIzmeniCud";
-            btnIzmeniCud.Size = new Size(132, 43);
-            btnIzmeniCud.TabIndex = 3;
-            btnIzmeniCud.Text = "Izmeni Lokaciju";
-            btnIzmeniCud.UseVisualStyleBackColor = true;
+            btnIzmeniLok.AutoSize = true;
+            btnIzmeniLok.Location = new Point(40, 121);
+            btnIzmeniLok.Name = "btnIzmeniLok";
+            btnIzmeniLok.Size = new Size(132, 43);
+            btnIzmeniLok.TabIndex = 3;
+            btnIzmeniLok.Text = "Izmeni Lokaciju";
+            btnIzmeniLok.UseVisualStyleBackColor = true;
+            btnIzmeniLok.Click += btnIzmeniLok_Click;
             // 
-            // btnObrisiCud
+            // btnObrisiLok
             // 
-            btnObrisiCud.AutoSize = true;
-            btnObrisiCud.Location = new Point(40, 72);
-            btnObrisiCud.Name = "btnObrisiCud";
-            btnObrisiCud.Size = new Size(132, 43);
-            btnObrisiCud.TabIndex = 2;
-            btnObrisiCud.Text = "Obrisi Lokaciju";
-            btnObrisiCud.UseVisualStyleBackColor = true;
+            btnObrisiLok.AutoSize = true;
+            btnObrisiLok.Location = new Point(40, 72);
+            btnObrisiLok.Name = "btnObrisiLok";
+            btnObrisiLok.Size = new Size(132, 43);
+            btnObrisiLok.TabIndex = 2;
+            btnObrisiLok.Text = "Obrisi Lokaciju";
+            btnObrisiLok.UseVisualStyleBackColor = true;
+            btnObrisiLok.Click += btnObrisiLok_Click;
             // 
-            // btnDodajCud
+            // btnDodajLok
             // 
-            btnDodajCud.AutoSize = true;
-            btnDodajCud.Location = new Point(40, 23);
-            btnDodajCud.Name = "btnDodajCud";
-            btnDodajCud.Size = new Size(132, 43);
-            btnDodajCud.TabIndex = 1;
-            btnDodajCud.Text = "Dodaj Lokaciju";
-            btnDodajCud.UseVisualStyleBackColor = true;
+            btnDodajLok.AutoSize = true;
+            btnDodajLok.Location = new Point(40, 23);
+            btnDodajLok.Name = "btnDodajLok";
+            btnDodajLok.Size = new Size(132, 43);
+            btnDodajLok.TabIndex = 1;
+            btnDodajLok.Text = "Dodaj Lokaciju";
+            btnDodajLok.UseVisualStyleBackColor = true;
+            btnDodajLok.Click += btnDodajLok_Click;
+            // 
+            // btnZastita
+            // 
+            btnZastita.AutoSize = true;
+            btnZastita.Location = new Point(857, 258);
+            btnZastita.Name = "btnZastita";
+            btnZastita.Size = new Size(132, 43);
+            btnZastita.TabIndex = 4;
+            btnZastita.Text = "Zastita";
+            btnZastita.UseVisualStyleBackColor = true;
+            btnZastita.Click += btnZastita_Click;
             // 
             // LokacijaForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1051, 450);
+            Controls.Add(btnZastita);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Name = "LokacijaForm";
             Text = "LokacijaForm";
+            Load += LokacijaForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -165,10 +177,10 @@
         private ColumnHeader columnHeader3;
         private ColumnHeader columnHeader4;
         private ColumnHeader columnHeader5;
-        private ColumnHeader columnHeader6;
         private GroupBox groupBox2;
-        private Button btnIzmeniCud;
-        private Button btnObrisiCud;
-        private Button btnDodajCud;
+        private Button btnIzmeniLok;
+        private Button btnObrisiLok;
+        private Button btnDodajLok;
+        private Button btnZastita;
     }
 }
