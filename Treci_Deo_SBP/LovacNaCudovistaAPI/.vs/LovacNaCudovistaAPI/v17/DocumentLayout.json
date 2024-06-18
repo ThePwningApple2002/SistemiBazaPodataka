@@ -1,0 +1,408 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\zastitaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\uslovizaprimenuview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\susretview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\spessposobnostview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\protivmereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\predmetview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\poznatipredstavnikview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\nemagcudovisteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\magsposobnostview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\magcudovisteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\lovacview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\lokacijaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\bajalicaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\cudovisteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\dtos\\legendaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\entiteti\\magcudoviste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\import.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\datalayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistaapi\\import.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|solutionrelative:import.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\entiteti\\lokacija.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76490F78-90FA-472D-BB00-EBFF90AA712A}|..\\LovacNaCudovistaLibrary\\LovacNaCudovistaLibrary.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistalibrary\\entiteti\\bajalica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistaapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistaapi\\lovacnacudovistaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|solutionrelative:lovacnacudovistaapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|h:\\faks\\sbp\\drugi_deo_projekta\\treci_deo_sbp\\lovacnacudovistaapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{024BC553-DA4F-48D2-8FF0-230507DD8E74}|LovacNaCudovistaAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MagSposobnostView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\MagSposobnostView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\MagSposobnostView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\MagSposobnostView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\MagSposobnostView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:13:44.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NeMagCudovisteView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\NeMagCudovisteView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\NeMagCudovisteView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\NeMagCudovisteView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\NeMagCudovisteView.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:14:00.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SpesSposobnostView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\SpesSposobnostView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\SpesSposobnostView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\SpesSposobnostView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\SpesSposobnostView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:14:49.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PoznatiPredstavnikView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\PoznatiPredstavnikView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\PoznatiPredstavnikView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\PoznatiPredstavnikView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\PoznatiPredstavnikView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:14:13.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PredmetView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\PredmetView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\PredmetView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\PredmetView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\PredmetView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:14:21.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProtivmereView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\ProtivmereView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\ProtivmereView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\ProtivmereView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\ProtivmereView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:14:32.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SusretView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\SusretView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\SusretView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\SusretView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\SusretView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:14:59.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsloviZaPrimenuView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\UsloviZaPrimenuView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\UsloviZaPrimenuView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\UsloviZaPrimenuView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\UsloviZaPrimenuView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:15:09.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZastitaView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\ZastitaView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\ZastitaView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\ZastitaView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\ZastitaView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:15:17.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MagCudovisteView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\MagCudovisteView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\MagCudovisteView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\MagCudovisteView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\MagCudovisteView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:13:16.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LovacView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\LovacView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\LovacView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\LovacView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\LovacView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:13:05.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LokacijaView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\LokacijaView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\LokacijaView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\LokacijaView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\LokacijaView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:12:55.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BajalicaView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\BajalicaView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\BajalicaView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\BajalicaView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\BajalicaView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:12:15.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CudovisteView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\CudovisteView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\CudovisteView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\CudovisteView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\CudovisteView.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:12:37.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LegendaView.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\LegendaView.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DTOs\\LegendaView.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DTOs\\LegendaView.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DTOs\\LegendaView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:12:45.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MagCudoviste.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Entiteti\\MagCudoviste.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\Entiteti\\MagCudoviste.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Entiteti\\MagCudoviste.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\Entiteti\\MagCudoviste.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:32:06.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Import.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Import.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\Import.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Import.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\Import.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:17:13.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DataLayer.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DataLayer.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\DataLayer.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\DataLayer.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\DataLayer.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwDcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:48:59.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Import.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\Import.cs",
+              "RelativeDocumentMoniker": "Import.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\Import.cs",
+              "RelativeToolTip": "Import.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:51:14.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Lokacija.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Entiteti\\Lokacija.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\Entiteti\\Lokacija.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Entiteti\\Lokacija.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\Entiteti\\Lokacija.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:18:22.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Bajalica.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Entiteti\\Bajalica.cs",
+              "RelativeDocumentMoniker": "..\\LovacNaCudovistaLibrary\\Entiteti\\Bajalica.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaLibrary\\Entiteti\\Bajalica.cs",
+              "RelativeToolTip": "..\\LovacNaCudovistaLibrary\\Entiteti\\Bajalica.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:55:07.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:44:55.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LovacNaCudovistaAPI.http",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\LovacNaCudovistaAPI.http",
+              "RelativeDocumentMoniker": "LovacNaCudovistaAPI.http",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\LovacNaCudovistaAPI.http",
+              "RelativeToolTip": "LovacNaCudovistaAPI.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-06-18T00:44:52.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Treci_Deo_SBP\\LovacNaCudovistaAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:44:48.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

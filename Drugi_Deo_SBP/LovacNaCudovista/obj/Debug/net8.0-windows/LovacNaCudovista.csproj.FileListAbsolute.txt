@@ -97,3 +97,42 @@ C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacN
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
 C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovisteAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovisteUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PoznatiPredstavnikForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaAddForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaForm.resources
+H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaUpdateForm.resources

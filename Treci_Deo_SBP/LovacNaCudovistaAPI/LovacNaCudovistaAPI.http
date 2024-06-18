@@ -1,0 +1,6 @@
+@LovacNaCudovistaAPI_HostAddress = http://localhost:5287
+
+GET {{LovacNaCudovistaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
