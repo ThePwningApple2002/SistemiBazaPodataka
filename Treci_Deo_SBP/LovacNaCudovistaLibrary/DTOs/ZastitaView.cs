@@ -13,7 +13,7 @@ namespace LovacNaCudovistaLibrary.DTOs
         public virtual string? NazivZastite { get; set; }
         public virtual LokacijaView PredmetLokacija { get; set; }
 
-        public ZastitaView(Zastita p)
+        public ZastitaView(Zastita? p)
         {
             if (p != null)
             {

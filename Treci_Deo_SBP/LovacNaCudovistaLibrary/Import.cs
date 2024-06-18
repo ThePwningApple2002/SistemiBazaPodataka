@@ -7,5 +7,7 @@ global using System.Text;
 global using LovacNaCudovista.Entiteti;
 global using LovacNaCudovistaLibrary.DTOs;
 global using NHibernate;
-
 global using System.Diagnostics.CodeAnalysis;
+global using FluentNHibernate.Mapping;
+global using FluentNHibernate.Cfg;
+global using FluentNHibernate.Cfg.Db;

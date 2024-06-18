@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LovacNaCudovistaLibrary.DTOs
 {
-    public class SpesSposobnostView
+    public class SpecSposobnostView
     {
         public virtual int IdSpecSposobnost { get; set; }
 
@@ -14,7 +14,7 @@ namespace LovacNaCudovistaLibrary.DTOs
 
         public virtual IList<NeMagCudovisteView> NeMagCudovista { get; set; }
 
-        internal SpesSposobnostView(SpecSposobnost p)
+        internal SpecSposobnostView(SpecSposobnost p)
         {
 
             if( p != null)
@@ -27,7 +27,7 @@ namespace LovacNaCudovistaLibrary.DTOs
             }
 
         }
-        public SpesSposobnostView()
+        public SpecSposobnostView()
         {
 
             NeMagCudovista = new List<NeMagCudovisteView>();

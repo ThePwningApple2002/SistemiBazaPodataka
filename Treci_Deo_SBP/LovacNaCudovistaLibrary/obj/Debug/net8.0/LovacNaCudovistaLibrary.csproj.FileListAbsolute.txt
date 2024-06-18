@@ -1,0 +1,13 @@
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.csproj.AssemblyReference.cache
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.GeneratedMSBuildEditorConfig.editorconfig
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.AssemblyInfoInputs.cache
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.AssemblyInfo.cs
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.csproj.CoreCompileInputs.cache
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.sourcelink.json
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\bin\Debug\net8.0\LovacNaCudovistaLibrary.deps.json
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\bin\Debug\net8.0\LovacNaCudovistaLibrary.dll
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\bin\Debug\net8.0\LovacNaCudovistaLibrary.pdb
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.dll
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\refint\LovacNaCudovistaLibrary.dll
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\LovacNaCudovistaLibrary.pdb
+H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\obj\Debug\net8.0\ref\LovacNaCudovistaLibrary.dll

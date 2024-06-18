@@ -17,7 +17,7 @@ namespace LovacNaCudovistaLibrary.DTOs
         public virtual string? Otrovno { get; set; }
         public virtual int? Tezina { get; set; }
 
-        public virtual IList<SpesSposobnostView> SpecSposobnosti { get; set; }
+        public virtual IList<SpecSposobnostView> SpecSposobnosti { get; set; }
 
         internal NeMagCudovisteView(NeMagCudoviste p)
         : base(p)
@@ -41,7 +41,7 @@ namespace LovacNaCudovistaLibrary.DTOs
         }
         public NeMagCudovisteView()
         {
-            SpecSposobnosti = new List<SpesSposobnostView>();
+            SpecSposobnosti = new List<SpecSposobnostView>();
         }
     }
 }
