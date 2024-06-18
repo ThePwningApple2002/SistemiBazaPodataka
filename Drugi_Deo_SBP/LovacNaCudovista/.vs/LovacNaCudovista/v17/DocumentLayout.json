@@ -78,18 +78,13 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "H:\\Faks\\SBP\\Drugi_Deo_Projekta\\Drugi_Deo_SBP\\LovacNaCudovista\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazaPodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T11:37:51.987Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
