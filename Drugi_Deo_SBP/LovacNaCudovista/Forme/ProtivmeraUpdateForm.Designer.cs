@@ -44,61 +44,64 @@
             groupBox1.Controls.Add(btnAzuriraj);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(39, 32);
+            groupBox1.Location = new Point(39, 34);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(723, 386);
+            groupBox1.Size = new Size(723, 405);
             groupBox1.TabIndex = 9;
             groupBox1.TabStop = false;
             groupBox1.Text = "Osnovni podaci o protivmeri";
             // 
             // txbOpis
             // 
-            txbOpis.Location = new Point(464, 101);
+            txbOpis.Location = new Point(464, 106);
             txbOpis.Name = "txbOpis";
-            txbOpis.Size = new Size(125, 27);
+            txbOpis.Size = new Size(125, 28);
             txbOpis.TabIndex = 9;
             // 
             // txbNaziv
             // 
-            txbNaziv.Location = new Point(213, 101);
+            txbNaziv.Location = new Point(213, 106);
             txbNaziv.Name = "txbNaziv";
-            txbNaziv.Size = new Size(125, 27);
+            txbNaziv.Size = new Size(125, 28);
             txbNaziv.TabIndex = 8;
             // 
             // btnAzuriraj
             // 
-            btnAzuriraj.Location = new Point(474, 308);
+            btnAzuriraj.BackColor = SystemColors.ScrollBar;
+            btnAzuriraj.Location = new Point(474, 323);
             btnAzuriraj.Name = "btnAzuriraj";
-            btnAzuriraj.Size = new Size(203, 58);
+            btnAzuriraj.Size = new Size(203, 61);
             btnAzuriraj.TabIndex = 7;
             btnAzuriraj.Text = "Azuriraj";
-            btnAzuriraj.UseVisualStyleBackColor = true;
+            btnAzuriraj.UseVisualStyleBackColor = false;
             btnAzuriraj.Click += btnAzuriraj_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(367, 104);
+            label3.Location = new Point(367, 109);
             label3.Name = "label3";
-            label3.Size = new Size(39, 20);
+            label3.Size = new Size(41, 21);
             label3.TabIndex = 2;
             label3.Text = "Opis";
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(78, 104);
+            label1.Location = new Point(78, 109);
             label1.Name = "label1";
-            label1.Size = new Size(46, 20);
+            label1.Size = new Size(46, 21);
             label1.TabIndex = 0;
             label1.Text = "Naziv";
             // 
             // ProtivmeraUpdateForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(800, 472);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "ProtivmeraUpdateForm";
             Text = "ProtivmeraUpdateForm";
             Load += ProtivmeraUpdateForm_Load;

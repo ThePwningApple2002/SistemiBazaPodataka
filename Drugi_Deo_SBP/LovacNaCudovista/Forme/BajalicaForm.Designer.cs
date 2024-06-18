@@ -45,22 +45,24 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(listaBajalica);
-            groupBox1.Location = new Point(28, 30);
+            groupBox1.Location = new Point(28, 31);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(610, 370);
+            groupBox1.Size = new Size(610, 388);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Bajalica";
             // 
             // listaBajalica
             // 
+            listaBajalica.BackColor = SystemColors.ScrollBar;
             listaBajalica.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
             listaBajalica.Dock = DockStyle.Fill;
+            listaBajalica.ForeColor = SystemColors.ControlText;
             listaBajalica.FullRowSelect = true;
             listaBajalica.GridLines = true;
-            listaBajalica.Location = new Point(3, 23);
+            listaBajalica.Location = new Point(3, 24);
             listaBajalica.Name = "listaBajalica";
-            listaBajalica.Size = new Size(604, 344);
+            listaBajalica.Size = new Size(604, 361);
             listaBajalica.TabIndex = 4;
             listaBajalica.UseCompatibleStateImageBehavior = false;
             listaBajalica.View = View.Details;
@@ -93,52 +95,57 @@
             groupBox2.Controls.Add(btnIzmeniBaj);
             groupBox2.Controls.Add(btnObrisiBaj);
             groupBox2.Controls.Add(btnDodajBaj);
-            groupBox2.Location = new Point(756, 30);
+            groupBox2.Location = new Point(756, 31);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(208, 192);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
             // 
             // btnIzmeniBaj
             // 
             btnIzmeniBaj.AutoSize = true;
-            btnIzmeniBaj.Location = new Point(40, 121);
+            btnIzmeniBaj.BackColor = SystemColors.ScrollBar;
+            btnIzmeniBaj.Location = new Point(40, 127);
             btnIzmeniBaj.Name = "btnIzmeniBaj";
-            btnIzmeniBaj.Size = new Size(132, 43);
+            btnIzmeniBaj.Size = new Size(132, 45);
             btnIzmeniBaj.TabIndex = 3;
             btnIzmeniBaj.Text = "Izmeni Bajalicu";
-            btnIzmeniBaj.UseVisualStyleBackColor = true;
+            btnIzmeniBaj.UseVisualStyleBackColor = false;
             btnIzmeniBaj.Click += btnIzmeniBaj_Click;
             // 
             // btnObrisiBaj
             // 
             btnObrisiBaj.AutoSize = true;
-            btnObrisiBaj.Location = new Point(40, 72);
+            btnObrisiBaj.BackColor = SystemColors.ScrollBar;
+            btnObrisiBaj.Location = new Point(40, 76);
             btnObrisiBaj.Name = "btnObrisiBaj";
-            btnObrisiBaj.Size = new Size(132, 43);
+            btnObrisiBaj.Size = new Size(132, 45);
             btnObrisiBaj.TabIndex = 2;
             btnObrisiBaj.Text = "Obrisi Bajalicu";
-            btnObrisiBaj.UseVisualStyleBackColor = true;
+            btnObrisiBaj.UseVisualStyleBackColor = false;
             btnObrisiBaj.Click += btnObrisiBaj_Click;
             // 
             // btnDodajBaj
             // 
             btnDodajBaj.AutoSize = true;
-            btnDodajBaj.Location = new Point(40, 23);
+            btnDodajBaj.BackColor = SystemColors.ScrollBar;
+            btnDodajBaj.Location = new Point(40, 24);
             btnDodajBaj.Name = "btnDodajBaj";
-            btnDodajBaj.Size = new Size(132, 43);
+            btnDodajBaj.Size = new Size(132, 45);
             btnDodajBaj.TabIndex = 1;
             btnDodajBaj.Text = "Dodaj Bajalicu";
-            btnDodajBaj.UseVisualStyleBackColor = true;
+            btnDodajBaj.UseVisualStyleBackColor = false;
             btnDodajBaj.Click += btnDodajBaj_Click;
             // 
             // BajalicaForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1004, 450);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(1004, 472);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "BajalicaForm";
             Text = "BajalicaForm";
             Load += BajalicaForm_Load;

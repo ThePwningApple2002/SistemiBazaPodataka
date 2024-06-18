@@ -44,22 +44,23 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(listaZastita);
-            groupBox1.Location = new Point(26, 29);
+            groupBox1.Location = new Point(26, 30);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(410, 361);
+            groupBox1.Size = new Size(410, 379);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Zastita";
             // 
             // listaZastita
             // 
+            listaZastita.BackColor = SystemColors.ScrollBar;
             listaZastita.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3 });
             listaZastita.Dock = DockStyle.Fill;
             listaZastita.FullRowSelect = true;
             listaZastita.GridLines = true;
-            listaZastita.Location = new Point(3, 23);
+            listaZastita.Location = new Point(3, 24);
             listaZastita.Name = "listaZastita";
-            listaZastita.Size = new Size(404, 335);
+            listaZastita.Size = new Size(404, 352);
             listaZastita.TabIndex = 4;
             listaZastita.UseCompatibleStateImageBehavior = false;
             listaZastita.View = View.Details;
@@ -86,52 +87,57 @@
             groupBox2.Controls.Add(btnIzmeniZastitu);
             groupBox2.Controls.Add(btnObrisiZastitu);
             groupBox2.Controls.Add(btnDodajZastitu);
-            groupBox2.Location = new Point(669, 29);
+            groupBox2.Location = new Point(669, 30);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(208, 192);
             groupBox2.TabIndex = 6;
             groupBox2.TabStop = false;
             // 
             // btnIzmeniZastitu
             // 
             btnIzmeniZastitu.AutoSize = true;
-            btnIzmeniZastitu.Location = new Point(31, 121);
+            btnIzmeniZastitu.BackColor = SystemColors.ScrollBar;
+            btnIzmeniZastitu.Location = new Point(31, 127);
             btnIzmeniZastitu.Name = "btnIzmeniZastitu";
-            btnIzmeniZastitu.Size = new Size(150, 43);
+            btnIzmeniZastitu.Size = new Size(150, 45);
             btnIzmeniZastitu.TabIndex = 3;
             btnIzmeniZastitu.Text = "Izmeni Zastitu";
-            btnIzmeniZastitu.UseVisualStyleBackColor = true;
+            btnIzmeniZastitu.UseVisualStyleBackColor = false;
             btnIzmeniZastitu.Click += btnIzmeniZastitu_Click;
             // 
             // btnObrisiZastitu
             // 
             btnObrisiZastitu.AutoSize = true;
-            btnObrisiZastitu.Location = new Point(31, 72);
+            btnObrisiZastitu.BackColor = SystemColors.ScrollBar;
+            btnObrisiZastitu.Location = new Point(31, 76);
             btnObrisiZastitu.Name = "btnObrisiZastitu";
-            btnObrisiZastitu.Size = new Size(150, 43);
+            btnObrisiZastitu.Size = new Size(150, 45);
             btnObrisiZastitu.TabIndex = 2;
             btnObrisiZastitu.Text = "Obrisi Zastitu";
-            btnObrisiZastitu.UseVisualStyleBackColor = true;
+            btnObrisiZastitu.UseVisualStyleBackColor = false;
             btnObrisiZastitu.Click += btnObrisiZastitu_Click;
             // 
             // btnDodajZastitu
             // 
             btnDodajZastitu.AutoSize = true;
-            btnDodajZastitu.Location = new Point(31, 23);
+            btnDodajZastitu.BackColor = SystemColors.ScrollBar;
+            btnDodajZastitu.Location = new Point(31, 24);
             btnDodajZastitu.Name = "btnDodajZastitu";
-            btnDodajZastitu.Size = new Size(150, 43);
+            btnDodajZastitu.Size = new Size(150, 45);
             btnDodajZastitu.TabIndex = 1;
             btnDodajZastitu.Text = "Dodaj Zastitu";
-            btnDodajZastitu.UseVisualStyleBackColor = true;
+            btnDodajZastitu.UseVisualStyleBackColor = false;
             btnDodajZastitu.Click += btnDodajZastitu_Click;
             // 
             // ZastitaForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(906, 450);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(906, 472);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F);
             Name = "ZastitaForm";
             Text = "ZastitaForm";
             Load += ZastitaForm_Load;

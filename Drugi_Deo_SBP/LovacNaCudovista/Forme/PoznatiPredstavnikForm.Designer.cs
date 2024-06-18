@@ -39,7 +39,6 @@
             btnObrisiPozPred = new Button();
             btnDodajPozPred = new Button();
             btnLegenda = new Button();
-            btnLokacija = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -47,22 +46,23 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(listaPozPredstavnik);
-            groupBox1.Location = new Point(33, 30);
+            groupBox1.Location = new Point(33, 31);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(560, 361);
+            groupBox1.Size = new Size(560, 379);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Poznati Predstavnik";
             // 
             // listaPozPredstavnik
             // 
+            listaPozPredstavnik.BackColor = SystemColors.ScrollBar;
             listaPozPredstavnik.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
             listaPozPredstavnik.Dock = DockStyle.Fill;
             listaPozPredstavnik.FullRowSelect = true;
             listaPozPredstavnik.GridLines = true;
-            listaPozPredstavnik.Location = new Point(3, 23);
+            listaPozPredstavnik.Location = new Point(3, 24);
             listaPozPredstavnik.Name = "listaPozPredstavnik";
-            listaPozPredstavnik.Size = new Size(554, 335);
+            listaPozPredstavnik.Size = new Size(554, 352);
             listaPozPredstavnik.TabIndex = 4;
             listaPozPredstavnik.UseCompatibleStateImageBehavior = false;
             listaPozPredstavnik.View = View.Details;
@@ -94,77 +94,71 @@
             groupBox2.Controls.Add(btnIzmeniPozPred);
             groupBox2.Controls.Add(btnObrisiPozPred);
             groupBox2.Controls.Add(btnDodajPozPred);
-            groupBox2.Location = new Point(769, 30);
+            groupBox2.Location = new Point(768, 31);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(209, 192);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Podaci o Predstavniku";
             // 
             // btnIzmeniPozPred
             // 
             btnIzmeniPozPred.AutoSize = true;
-            btnIzmeniPozPred.Location = new Point(40, 121);
+            btnIzmeniPozPred.BackColor = SystemColors.ScrollBar;
+            btnIzmeniPozPred.Location = new Point(25, 127);
             btnIzmeniPozPred.Name = "btnIzmeniPozPred";
-            btnIzmeniPozPred.Size = new Size(150, 43);
+            btnIzmeniPozPred.Size = new Size(163, 45);
             btnIzmeniPozPred.TabIndex = 3;
             btnIzmeniPozPred.Text = "Izmeni Predstavnika";
-            btnIzmeniPozPred.UseVisualStyleBackColor = true;
+            btnIzmeniPozPred.UseVisualStyleBackColor = false;
             btnIzmeniPozPred.Click += btnIzmeniPozPred_Click;
             // 
             // btnObrisiPozPred
             // 
             btnObrisiPozPred.AutoSize = true;
-            btnObrisiPozPred.Location = new Point(40, 72);
+            btnObrisiPozPred.BackColor = SystemColors.ScrollBar;
+            btnObrisiPozPred.Location = new Point(25, 76);
             btnObrisiPozPred.Name = "btnObrisiPozPred";
-            btnObrisiPozPred.Size = new Size(150, 43);
+            btnObrisiPozPred.Size = new Size(158, 45);
             btnObrisiPozPred.TabIndex = 2;
             btnObrisiPozPred.Text = "Obrisi Predstavnika";
-            btnObrisiPozPred.UseVisualStyleBackColor = true;
+            btnObrisiPozPred.UseVisualStyleBackColor = false;
             btnObrisiPozPred.Click += btnObrisiPozPred_Click;
             // 
             // btnDodajPozPred
             // 
             btnDodajPozPred.AutoSize = true;
-            btnDodajPozPred.Location = new Point(40, 23);
+            btnDodajPozPred.BackColor = SystemColors.ScrollBar;
+            btnDodajPozPred.Location = new Point(25, 24);
             btnDodajPozPred.Name = "btnDodajPozPred";
-            btnDodajPozPred.Size = new Size(150, 43);
+            btnDodajPozPred.Size = new Size(157, 45);
             btnDodajPozPred.TabIndex = 1;
             btnDodajPozPred.Text = "Dodaj Predstavnika";
-            btnDodajPozPred.UseVisualStyleBackColor = true;
+            btnDodajPozPred.UseVisualStyleBackColor = false;
             btnDodajPozPred.Click += btnDodajPozPred_Click;
             // 
             // btnLegenda
             // 
             btnLegenda.AutoSize = true;
-            btnLegenda.Location = new Point(809, 235);
+            btnLegenda.BackColor = SystemColors.ScrollBar;
+            btnLegenda.Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnLegenda.Location = new Point(793, 245);
             btnLegenda.Name = "btnLegenda";
-            btnLegenda.Size = new Size(150, 43);
+            btnLegenda.Size = new Size(163, 45);
             btnLegenda.TabIndex = 4;
             btnLegenda.Text = "Legenda";
-            btnLegenda.UseVisualStyleBackColor = true;
+            btnLegenda.UseVisualStyleBackColor = false;
             btnLegenda.Click += btnLegenda_Click;
-            // 
-            // btnLokacija
-            // 
-            btnLokacija.AutoSize = true;
-            btnLokacija.Location = new Point(809, 301);
-            btnLokacija.Name = "btnLokacija";
-            btnLokacija.Size = new Size(150, 43);
-            btnLokacija.TabIndex = 6;
-            btnLokacija.Text = "ne znam";
-            btnLokacija.UseVisualStyleBackColor = true;
-            btnLokacija.Click += btnLokacija_Click;
             // 
             // PoznatiPredstavnikForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1023, 450);
-            Controls.Add(btnLokacija);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(1023, 472);
             Controls.Add(btnLegenda);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "PoznatiPredstavnikForm";
             Text = "PoznatiPredstavnikForm";
             Load += PoznatiPredstavnikForm_Load;
@@ -188,6 +182,5 @@
         private Button btnObrisiPozPred;
         private Button btnDodajPozPred;
         private Button btnLegenda;
-        private Button btnLokacija;
     }
 }

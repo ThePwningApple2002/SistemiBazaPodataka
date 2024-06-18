@@ -56,65 +56,68 @@
             groupBox2.Controls.Add(btnIzmeniCud);
             groupBox2.Controls.Add(btnObrisiCud);
             groupBox2.Controls.Add(btnDodajCud);
-            groupBox2.Location = new Point(1143, 32);
+            groupBox2.Location = new Point(1143, 34);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(208, 192);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Podaci o Cudovistu";
             // 
             // btnIzmeniCud
             // 
             btnIzmeniCud.AutoSize = true;
-            btnIzmeniCud.Location = new Point(40, 121);
+            btnIzmeniCud.BackColor = SystemColors.ScrollBar;
+            btnIzmeniCud.Location = new Point(40, 127);
             btnIzmeniCud.Name = "btnIzmeniCud";
-            btnIzmeniCud.Size = new Size(132, 43);
+            btnIzmeniCud.Size = new Size(140, 45);
             btnIzmeniCud.TabIndex = 3;
             btnIzmeniCud.Text = "Izmeni Cudoviste";
-            btnIzmeniCud.UseVisualStyleBackColor = true;
+            btnIzmeniCud.UseVisualStyleBackColor = false;
             btnIzmeniCud.Click += btnIzmeniCud_Click;
             // 
             // btnObrisiCud
             // 
             btnObrisiCud.AutoSize = true;
-            btnObrisiCud.Location = new Point(40, 72);
+            btnObrisiCud.BackColor = SystemColors.ScrollBar;
+            btnObrisiCud.Location = new Point(40, 76);
             btnObrisiCud.Name = "btnObrisiCud";
-            btnObrisiCud.Size = new Size(132, 43);
+            btnObrisiCud.Size = new Size(135, 45);
             btnObrisiCud.TabIndex = 2;
             btnObrisiCud.Text = "Obrisi Cudoviste";
-            btnObrisiCud.UseVisualStyleBackColor = true;
+            btnObrisiCud.UseVisualStyleBackColor = false;
             btnObrisiCud.Click += btnObrisiCud_Click;
             // 
             // btnDodajCud
             // 
             btnDodajCud.AutoSize = true;
-            btnDodajCud.Location = new Point(40, 23);
+            btnDodajCud.BackColor = SystemColors.ScrollBar;
+            btnDodajCud.Location = new Point(40, 24);
             btnDodajCud.Name = "btnDodajCud";
-            btnDodajCud.Size = new Size(132, 43);
+            btnDodajCud.Size = new Size(134, 45);
             btnDodajCud.TabIndex = 1;
             btnDodajCud.Text = "Dodaj Cudovista";
-            btnDodajCud.UseVisualStyleBackColor = true;
+            btnDodajCud.UseVisualStyleBackColor = false;
             btnDodajCud.Click += btnDodajCud_Click;
             // 
             // groupBox1
             // 
             groupBox1.Controls.Add(listaCudovista);
-            groupBox1.Location = new Point(23, 32);
+            groupBox1.Location = new Point(23, 34);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1031, 461);
+            groupBox1.Size = new Size(1031, 484);
             groupBox1.TabIndex = 6;
             groupBox1.TabStop = false;
             groupBox1.Text = "Nemagicna Cudovista";
             // 
             // listaCudovista
             // 
+            listaCudovista.BackColor = SystemColors.ScrollBar;
             listaCudovista.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5, columnHeader6, columnHeader7, columnHeader8, columnHeader9, columnHeader10, columnHeader11, columnHeader12 });
             listaCudovista.Dock = DockStyle.Fill;
             listaCudovista.FullRowSelect = true;
             listaCudovista.GridLines = true;
-            listaCudovista.Location = new Point(3, 23);
+            listaCudovista.Location = new Point(3, 24);
             listaCudovista.Name = "listaCudovista";
-            listaCudovista.Size = new Size(1025, 435);
+            listaCudovista.Size = new Size(1025, 457);
             listaCudovista.TabIndex = 4;
             listaCudovista.UseCompatibleStateImageBehavior = false;
             listaCudovista.View = View.Details;
@@ -178,22 +181,25 @@
             // btnBajalica
             // 
             btnBajalica.AutoSize = true;
-            btnBajalica.Location = new Point(1183, 251);
+            btnBajalica.BackColor = SystemColors.ScrollBar;
+            btnBajalica.Location = new Point(1183, 264);
             btnBajalica.Name = "btnBajalica";
-            btnBajalica.Size = new Size(132, 43);
+            btnBajalica.Size = new Size(132, 45);
             btnBajalica.TabIndex = 4;
             btnBajalica.Text = "Bajalica";
-            btnBajalica.UseVisualStyleBackColor = true;
+            btnBajalica.UseVisualStyleBackColor = false;
             btnBajalica.Click += btnBajalica_Click;
             // 
             // NeMagCudForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1363, 660);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(1363, 693);
             Controls.Add(btnBajalica);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "NeMagCudForm";
             Text = "NeMagCudForm";
             Load += NeMagCudForm_Load;

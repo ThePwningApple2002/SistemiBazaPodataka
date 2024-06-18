@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Drawing.Text;
+using System.IO;
 using NHibernate;
 using FluentNHibernate.Cfg;
 using FluentNHibernate.Cfg.Db;
@@ -38,10 +40,6 @@ namespace LovacNaCudovista
             forma.ShowDialog();
         }
 
-        private void btnLegenda_Click(object sender, EventArgs e)
-        {
 
-            
-        }
     }
 }
