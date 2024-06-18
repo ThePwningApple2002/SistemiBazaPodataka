@@ -732,12 +732,12 @@ namespace LovacNaCudovista
             {
                 using (ISession s = DataLayer.GetSession())
                 {
-                    // Učitajte objekat Legenda koristeći ID legende
+                    
                     Legenda legenda = s.Load<Legenda>(idLegende);
 
                     if (legenda != null && legenda.Lokacije != null && legenda.Lokacije.Count > 0)
                     {
-                        // Pretpostavljamo da postoji samo jedna povezana lokacija po legendi
+                        
                         idLokacije = legenda.Lokacije.First().IdLokacije;
                     }
 
@@ -1295,7 +1295,7 @@ namespace LovacNaCudovista
         {
             ISession s = DataLayer.GetSession();
 
-            // Upit za dobijanje poznatih predstavnika po ID-u čudovišta
+            
             IEnumerable<PoznatiPredstavnik> sviPredstavnici = from p in s.Query<PoznatiPredstavnik>()
                                                               where p.PoznatiPredCud.IdCudovista == cudovisteId
                                                               select p;

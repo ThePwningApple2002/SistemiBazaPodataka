@@ -46,22 +46,23 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(listaCudovista);
-            groupBox1.Location = new Point(34, 38);
+            groupBox1.Location = new Point(34, 40);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(610, 370);
+            groupBox1.Size = new Size(610, 388);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Magicna Cudovista";
             // 
             // listaCudovista
             // 
+            listaCudovista.BackColor = SystemColors.ScrollBar;
             listaCudovista.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4, columnHeader5 });
             listaCudovista.Dock = DockStyle.Fill;
             listaCudovista.FullRowSelect = true;
             listaCudovista.GridLines = true;
-            listaCudovista.Location = new Point(3, 23);
+            listaCudovista.Location = new Point(3, 24);
             listaCudovista.Name = "listaCudovista";
-            listaCudovista.Size = new Size(604, 344);
+            listaCudovista.Size = new Size(604, 361);
             listaCudovista.TabIndex = 4;
             listaCudovista.UseCompatibleStateImageBehavior = false;
             listaCudovista.View = View.Details;
@@ -98,53 +99,57 @@
             groupBox2.Controls.Add(btnIzmeniCud);
             groupBox2.Controls.Add(btnObrisiCud);
             groupBox2.Controls.Add(btnDodajCud);
-            groupBox2.Location = new Point(727, 38);
+            groupBox2.Location = new Point(727, 40);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(208, 192);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
-            groupBox2.Text = "Podaci o Cudovistu";
             // 
             // btnIzmeniCud
             // 
             btnIzmeniCud.AutoSize = true;
-            btnIzmeniCud.Location = new Point(40, 121);
+            btnIzmeniCud.BackColor = SystemColors.ScrollBar;
+            btnIzmeniCud.Location = new Point(40, 127);
             btnIzmeniCud.Name = "btnIzmeniCud";
-            btnIzmeniCud.Size = new Size(132, 43);
+            btnIzmeniCud.Size = new Size(140, 45);
             btnIzmeniCud.TabIndex = 3;
             btnIzmeniCud.Text = "Izmeni Cudoviste";
-            btnIzmeniCud.UseVisualStyleBackColor = true;
+            btnIzmeniCud.UseVisualStyleBackColor = false;
             btnIzmeniCud.Click += btnIzmeniCud_Click;
             // 
             // btnObrisiCud
             // 
             btnObrisiCud.AutoSize = true;
-            btnObrisiCud.Location = new Point(40, 72);
+            btnObrisiCud.BackColor = SystemColors.ScrollBar;
+            btnObrisiCud.Location = new Point(40, 76);
             btnObrisiCud.Name = "btnObrisiCud";
-            btnObrisiCud.Size = new Size(132, 43);
+            btnObrisiCud.Size = new Size(135, 45);
             btnObrisiCud.TabIndex = 2;
             btnObrisiCud.Text = "Obrisi Cudoviste";
-            btnObrisiCud.UseVisualStyleBackColor = true;
+            btnObrisiCud.UseVisualStyleBackColor = false;
             btnObrisiCud.Click += btnObrisiCud_Click;
             // 
             // btnDodajCud
             // 
             btnDodajCud.AutoSize = true;
-            btnDodajCud.Location = new Point(40, 23);
+            btnDodajCud.BackColor = SystemColors.ScrollBar;
+            btnDodajCud.Location = new Point(40, 24);
             btnDodajCud.Name = "btnDodajCud";
-            btnDodajCud.Size = new Size(132, 43);
+            btnDodajCud.Size = new Size(134, 45);
             btnDodajCud.TabIndex = 1;
             btnDodajCud.Text = "Dodaj Cudovista";
-            btnDodajCud.UseVisualStyleBackColor = true;
+            btnDodajCud.UseVisualStyleBackColor = false;
             btnDodajCud.Click += btnDodajCud_Click;
             // 
             // MagCudForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(959, 520);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(959, 546);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "MagCudForm";
             Text = "MagCudForm";
             Load += MagCudForm_Load;

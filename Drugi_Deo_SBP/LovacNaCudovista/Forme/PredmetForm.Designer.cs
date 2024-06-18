@@ -45,22 +45,23 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(listaPredmeta);
-            groupBox1.Location = new Point(12, 35);
+            groupBox1.Location = new Point(12, 37);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(610, 370);
+            groupBox1.Size = new Size(610, 388);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Predmet";
             // 
             // listaPredmeta
             // 
+            listaPredmeta.BackColor = SystemColors.ScrollBar;
             listaPredmeta.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2, columnHeader3, columnHeader4 });
             listaPredmeta.Dock = DockStyle.Fill;
             listaPredmeta.FullRowSelect = true;
             listaPredmeta.GridLines = true;
-            listaPredmeta.Location = new Point(3, 23);
+            listaPredmeta.Location = new Point(3, 24);
             listaPredmeta.Name = "listaPredmeta";
-            listaPredmeta.Size = new Size(604, 344);
+            listaPredmeta.Size = new Size(604, 361);
             listaPredmeta.TabIndex = 4;
             listaPredmeta.UseCompatibleStateImageBehavior = false;
             listaPredmeta.View = View.Details;
@@ -93,52 +94,57 @@
             groupBox2.Controls.Add(btnIzmeni);
             groupBox2.Controls.Add(btnObrisi);
             groupBox2.Controls.Add(btnDodaj);
-            groupBox2.Location = new Point(755, 35);
+            groupBox2.Location = new Point(755, 37);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(208, 192);
             groupBox2.TabIndex = 6;
             groupBox2.TabStop = false;
             // 
             // btnIzmeni
             // 
             btnIzmeni.AutoSize = true;
-            btnIzmeni.Location = new Point(40, 121);
+            btnIzmeni.BackColor = SystemColors.ScrollBar;
+            btnIzmeni.Location = new Point(40, 127);
             btnIzmeni.Name = "btnIzmeni";
-            btnIzmeni.Size = new Size(132, 43);
+            btnIzmeni.Size = new Size(132, 45);
             btnIzmeni.TabIndex = 3;
             btnIzmeni.Text = "Izmeni Predmet";
-            btnIzmeni.UseVisualStyleBackColor = true;
+            btnIzmeni.UseVisualStyleBackColor = false;
             btnIzmeni.Click += btnIzmeni_Click;
             // 
             // btnObrisi
             // 
             btnObrisi.AutoSize = true;
-            btnObrisi.Location = new Point(40, 72);
+            btnObrisi.BackColor = SystemColors.ScrollBar;
+            btnObrisi.Location = new Point(40, 76);
             btnObrisi.Name = "btnObrisi";
-            btnObrisi.Size = new Size(132, 43);
+            btnObrisi.Size = new Size(132, 45);
             btnObrisi.TabIndex = 2;
             btnObrisi.Text = "Obrisi Predmet";
-            btnObrisi.UseVisualStyleBackColor = true;
+            btnObrisi.UseVisualStyleBackColor = false;
             btnObrisi.Click += btnObrisi_Click;
             // 
             // btnDodaj
             // 
             btnDodaj.AutoSize = true;
-            btnDodaj.Location = new Point(40, 23);
+            btnDodaj.BackColor = SystemColors.ScrollBar;
+            btnDodaj.Location = new Point(40, 24);
             btnDodaj.Name = "btnDodaj";
-            btnDodaj.Size = new Size(132, 43);
+            btnDodaj.Size = new Size(132, 45);
             btnDodaj.TabIndex = 1;
             btnDodaj.Text = "Dodaj Predmet";
-            btnDodaj.UseVisualStyleBackColor = true;
+            btnDodaj.UseVisualStyleBackColor = false;
             btnDodaj.Click += btnDodaj_Click;
             // 
             // PredmetForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(975, 450);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(975, 472);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "PredmetForm";
             Text = "PredmetForm";
             Load += PredmetForm_Load;

@@ -111,9 +111,6 @@ namespace LovacNaCudovista.Forme
             forma.ShowDialog();
         }
 
-        private void btnLokacija_Click(object sender, EventArgs e)
-        {
-            
-        }
+       
     }
 }

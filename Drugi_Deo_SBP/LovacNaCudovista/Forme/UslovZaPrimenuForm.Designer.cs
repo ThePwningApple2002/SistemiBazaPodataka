@@ -43,21 +43,22 @@
             // groupBox1
             // 
             groupBox1.Controls.Add(listaUslova);
-            groupBox1.Location = new Point(35, 29);
+            groupBox1.Location = new Point(35, 30);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(332, 370);
+            groupBox1.Size = new Size(332, 388);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             // 
             // listaUslova
             // 
+            listaUslova.BackColor = SystemColors.ScrollBar;
             listaUslova.Columns.AddRange(new ColumnHeader[] { columnHeader1, columnHeader2 });
             listaUslova.Dock = DockStyle.Fill;
             listaUslova.FullRowSelect = true;
             listaUslova.GridLines = true;
-            listaUslova.Location = new Point(3, 23);
+            listaUslova.Location = new Point(3, 24);
             listaUslova.Name = "listaUslova";
-            listaUslova.Size = new Size(326, 344);
+            listaUslova.Size = new Size(326, 361);
             listaUslova.TabIndex = 4;
             listaUslova.UseCompatibleStateImageBehavior = false;
             listaUslova.View = View.Details;
@@ -78,52 +79,57 @@
             groupBox2.Controls.Add(btnIzmeni);
             groupBox2.Controls.Add(btnObrisi);
             groupBox2.Controls.Add(btnDodaj);
-            groupBox2.Location = new Point(462, 29);
+            groupBox2.Location = new Point(462, 30);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 183);
+            groupBox2.Size = new Size(208, 192);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             // 
             // btnIzmeni
             // 
             btnIzmeni.AutoSize = true;
-            btnIzmeni.Location = new Point(40, 121);
+            btnIzmeni.BackColor = SystemColors.ScrollBar;
+            btnIzmeni.Location = new Point(40, 127);
             btnIzmeni.Name = "btnIzmeni";
-            btnIzmeni.Size = new Size(132, 43);
+            btnIzmeni.Size = new Size(132, 45);
             btnIzmeni.TabIndex = 3;
             btnIzmeni.Text = "Izmeni";
-            btnIzmeni.UseVisualStyleBackColor = true;
+            btnIzmeni.UseVisualStyleBackColor = false;
             btnIzmeni.Click += btnIzmeni_Click;
             // 
             // btnObrisi
             // 
             btnObrisi.AutoSize = true;
-            btnObrisi.Location = new Point(40, 72);
+            btnObrisi.BackColor = SystemColors.ScrollBar;
+            btnObrisi.Location = new Point(40, 76);
             btnObrisi.Name = "btnObrisi";
-            btnObrisi.Size = new Size(132, 43);
+            btnObrisi.Size = new Size(132, 45);
             btnObrisi.TabIndex = 2;
             btnObrisi.Text = "Obrisi";
-            btnObrisi.UseVisualStyleBackColor = true;
+            btnObrisi.UseVisualStyleBackColor = false;
             btnObrisi.Click += btnObrisi_Click;
             // 
             // btnDodaj
             // 
             btnDodaj.AutoSize = true;
-            btnDodaj.Location = new Point(40, 23);
+            btnDodaj.BackColor = SystemColors.ScrollBar;
+            btnDodaj.Location = new Point(40, 24);
             btnDodaj.Name = "btnDodaj";
-            btnDodaj.Size = new Size(132, 43);
+            btnDodaj.Size = new Size(132, 45);
             btnDodaj.TabIndex = 1;
             btnDodaj.Text = "Dodaj";
-            btnDodaj.UseVisualStyleBackColor = true;
+            btnDodaj.UseVisualStyleBackColor = false;
             btnDodaj.Click += btnDodaj_Click;
             // 
             // UslovZaPrimenuForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(695, 450);
+            BackColor = SystemColors.WindowFrame;
+            ClientSize = new Size(695, 472);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Font = new Font("Impact", 10.2F);
             Name = "UslovZaPrimenuForm";
             Text = "UslovZaPrimenuForm";
             Load += UslovZaPrimenuForm_Load;
