@@ -283,6 +283,7 @@
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "NeMagCudUpdateForm";
             Text = "NeMagCudUpdateForm";
+            Load += MagCudovisteUpdateForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

@@ -32,10 +32,10 @@
             txbZastita = new TextBox();
             txbNaziv = new TextBox();
             btnDodaj = new Button();
-            txbPrednost = new TextBox();
-            label4 = new Label();
             label3 = new Label();
             label1 = new Label();
+            label4 = new Label();
+            txbPrednost = new TextBox();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -80,22 +80,6 @@
             btnDodaj.UseVisualStyleBackColor = false;
             btnDodaj.Click += btnDodaj_Click;
             // 
-            // txbPrednost
-            // 
-            txbPrednost.Location = new Point(213, 201);
-            txbPrednost.Name = "txbPrednost";
-            txbPrednost.Size = new Size(125, 28);
-            txbPrednost.TabIndex = 4;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(78, 201);
-            label4.Name = "label4";
-            label4.Size = new Size(74, 21);
-            label4.TabIndex = 3;
-            label4.Text = "Prednost";
-            // 
             // label3
             // 
             label3.AutoSize = true;
@@ -113,6 +97,22 @@
             label1.Size = new Size(46, 21);
             label1.TabIndex = 0;
             label1.Text = "Naziv";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(78, 201);
+            label4.Name = "label4";
+            label4.Size = new Size(74, 21);
+            label4.TabIndex = 3;
+            label4.Text = "Prednost";
+            // 
+            // txbPrednost
+            // 
+            txbPrednost.Location = new Point(213, 201);
+            txbPrednost.Name = "txbPrednost";
+            txbPrednost.Size = new Size(125, 28);
+            txbPrednost.TabIndex = 4;
             // 
             // BajalicaAddForm
             // 
@@ -137,11 +137,11 @@
         private TextBox txbNazivLok;
         private TextBox txbTipLok;
         private Button btnDodaj;
-        private TextBox txbPrednost;
-        private Label label4;
         private Label label3;
         private Label label1;
         private TextBox txbZastita;
         private TextBox txbNaziv;
+        private TextBox txbPrednost;
+        private Label label4;
     }
 }

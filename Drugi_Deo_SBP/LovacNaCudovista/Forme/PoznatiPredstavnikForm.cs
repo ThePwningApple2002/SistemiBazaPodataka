@@ -107,7 +107,7 @@ namespace LovacNaCudovista.Forme
             }
             int idPozPred = Int32.Parse(listaPozPredstavnik.SelectedItems[0].SubItems[0].Text);
 
-            LegendaForm forma = new LegendaForm(cudovisteId, idPozPred);
+            LegendaForm forma = new LegendaForm(idPozPred);
             forma.ShowDialog();
         }
 

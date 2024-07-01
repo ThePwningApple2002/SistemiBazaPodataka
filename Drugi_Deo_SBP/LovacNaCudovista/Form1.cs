@@ -27,12 +27,7 @@ namespace LovacNaCudovista
 
         }
 
-        private void btnLovac_Click(object sender, EventArgs e)
-        {
-            LovacForm forma = new LovacForm();
-            forma.ShowDialog();
 
-        }
 
         private void btnCud_Click(object sender, EventArgs e)
         {
@@ -40,6 +35,10 @@ namespace LovacNaCudovista
             forma.ShowDialog();
         }
 
-
+        private void btnPredmet_Click(object sender, EventArgs e)
+        {
+            PredmetForm forma = new PredmetForm();
+            forma.ShowDialog();
+        }
     }
 }

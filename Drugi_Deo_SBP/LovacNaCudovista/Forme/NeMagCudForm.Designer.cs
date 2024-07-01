@@ -47,6 +47,7 @@
             columnHeader11 = new ColumnHeader();
             columnHeader12 = new ColumnHeader();
             btnBajalica = new Button();
+            btnSpecSpos = new Button();
             groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -80,7 +81,7 @@
             btnObrisiCud.BackColor = SystemColors.ScrollBar;
             btnObrisiCud.Location = new Point(40, 76);
             btnObrisiCud.Name = "btnObrisiCud";
-            btnObrisiCud.Size = new Size(135, 45);
+            btnObrisiCud.Size = new Size(140, 45);
             btnObrisiCud.TabIndex = 2;
             btnObrisiCud.Text = "Obrisi Cudoviste";
             btnObrisiCud.UseVisualStyleBackColor = false;
@@ -92,7 +93,7 @@
             btnDodajCud.BackColor = SystemColors.ScrollBar;
             btnDodajCud.Location = new Point(40, 24);
             btnDodajCud.Name = "btnDodajCud";
-            btnDodajCud.Size = new Size(134, 45);
+            btnDodajCud.Size = new Size(140, 45);
             btnDodajCud.TabIndex = 1;
             btnDodajCud.Text = "Dodaj Cudovista";
             btnDodajCud.UseVisualStyleBackColor = false;
@@ -184,11 +185,22 @@
             btnBajalica.BackColor = SystemColors.ScrollBar;
             btnBajalica.Location = new Point(1183, 264);
             btnBajalica.Name = "btnBajalica";
-            btnBajalica.Size = new Size(132, 45);
+            btnBajalica.Size = new Size(140, 45);
             btnBajalica.TabIndex = 4;
             btnBajalica.Text = "Bajalica";
             btnBajalica.UseVisualStyleBackColor = false;
             btnBajalica.Click += btnBajalica_Click;
+            // 
+            // btnSpecSpos
+            // 
+            btnSpecSpos.AutoSize = true;
+            btnSpecSpos.BackColor = SystemColors.ScrollBar;
+            btnSpecSpos.Location = new Point(1134, 328);
+            btnSpecSpos.Name = "btnSpecSpos";
+            btnSpecSpos.Size = new Size(189, 45);
+            btnSpecSpos.TabIndex = 8;
+            btnSpecSpos.Text = "Specijalne Sposobnosti";
+            btnSpecSpos.UseVisualStyleBackColor = false;
             // 
             // NeMagCudForm
             // 
@@ -196,6 +208,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(1363, 693);
+            Controls.Add(btnSpecSpos);
             Controls.Add(btnBajalica);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
@@ -231,5 +244,6 @@
         private ColumnHeader columnHeader11;
         private ColumnHeader columnHeader12;
         private Button btnBajalica;
+        private Button btnSpecSpos;
     }
 }

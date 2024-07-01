@@ -29,7 +29,7 @@ namespace LovacNaCudovista.Forme
         public void popuniPodacima()
         {
             listaUslova.Items.Clear();
-            List<UsloviZaPrimenuPregled> sviUslovi = DTOManager.VratiSveUslove();
+            List<UsloviZaPrimenuPregled> sviUslovi = DTOManager.VratiUsloveZaProtivmeru(idprotivmere);
 
             foreach (UsloviZaPrimenuPregled p in sviUslovi)
             {

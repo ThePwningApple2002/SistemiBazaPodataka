@@ -88,6 +88,15 @@
     <Compile Update="Forme\ProtivmeraUpdateForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forme\SpecSposAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\SpecSposForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme\SpecSposUpdateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forme\SusretForm.cs">
       <SubType>Form</SubType>
     </Compile>

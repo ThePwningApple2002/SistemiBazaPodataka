@@ -144,6 +144,7 @@
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "MagCudovisteUpdateForm";
             Text = "MagCudovisteUpdateForm";
+            Load += MagCudovisteUpdateForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

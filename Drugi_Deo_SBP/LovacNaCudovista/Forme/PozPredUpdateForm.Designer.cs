@@ -124,6 +124,7 @@
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Name = "PozPredUpdateForm";
             Text = "PozPredUpdateForm";
+            Load += PozPredUpdateForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);

@@ -1896,6 +1896,34 @@ namespace LovacNaCudovista
             return susreti;
         }
 
+        public static List<SusretPregled> VratiSusreteZaLovca(int idLovca)
+        {
+            List<SusretPregled> susreti = new List<SusretPregled>();
+            try
+            {
+                ISession s = DataLayer.GetSession();
+
+                IEnumerable<Susret> sviSusreti = from o in s.Query<Susret>()
+                                                 where o.LovacSusrtet.IdLovca == idLovca
+                                                 select o;
+
+                foreach (Susret p in sviSusreti)
+                {
+                    LovacBasic lovacBasic = new LovacBasic(p.LovacSusrtet.IdLovca, p.LovacSusrtet.ImeLovca);
+                    LokacijaBasic lokacijaBasic = new LokacijaBasic(p.SusretLok.IdLokacije, p.SusretLok.TipLok, p.SusretLok.NazivLok, p.SusretLok.ZemljaLok, p.SusretLok.Blago, null); // Simplified
+                    PoznatiPredstavnikBasic poznatiPredstavnikBasic = new PoznatiPredstavnikBasic(p.SusretPP.IdPozPred, p.SusretPP.JedinstvenoIme, p.SusretPP.Starost, null); // Simplified
+
+                    susreti.Add(new SusretPregled(p.IdSusret, lovacBasic, lokacijaBasic, p.Vreme, p.Ishod, poznatiPredstavnikBasic));
+                }
+                s.Close();
+            }
+            catch (Exception ex)
+            {
+                
+            }
+            return susreti;
+        }
+
         public static void DodajSusret(SusretBasic susret, LovacBasic l, LokacijaBasic l2, PoznatiPredstavnikBasic p)
         {
             try
@@ -2061,6 +2089,31 @@ namespace LovacNaCudovista
             catch 
             {
                 // Handle exceptions
+            }
+            return uslovi;
+        }
+
+        public static List<UsloviZaPrimenuPregled> VratiUsloveZaProtivmeru(int idProtivmere)
+        {
+            List<UsloviZaPrimenuPregled> uslovi = new List<UsloviZaPrimenuPregled>();
+            try
+            {
+                ISession s = DataLayer.GetSession();
+
+                IEnumerable<UsloviZaPrimenu> sviUslovi = from o in s.Query<UsloviZaPrimenu>()
+                                                         where o.UslPM.IdProtivmere == idProtivmere
+                                                         select o;
+
+                foreach (UsloviZaPrimenu p in sviUslovi)
+                {
+                    uslovi.Add(new UsloviZaPrimenuPregled(p.IdUslova, p.Uslov));
+                }
+                s.Close();
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions
+                Console.WriteLine(ex.Message);
             }
             return uslovi;
         }

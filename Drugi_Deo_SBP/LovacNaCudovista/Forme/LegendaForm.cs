@@ -14,10 +14,10 @@ namespace LovacNaCudovista.Forme
     public partial class LegendaForm : Form
     {
         private int idPozPred;
-        public LegendaForm(int idCud, int id)
+        public LegendaForm(int idPP)
         {
             InitializeComponent();
-            this.idPozPred = id;
+            this.idPozPred = idPP;
 
 
         }
@@ -108,7 +108,7 @@ namespace LovacNaCudovista.Forme
             }
             int idLegende = Int32.Parse(listaLegenda.SelectedItems[0].SubItems[0].Text);
 
-            LokacijaForm forma = new LokacijaForm(idLegende);
+            LokacijaForm forma = new LokacijaForm(idLegende, idPozPred);
             forma.ShowDialog();
         }
 

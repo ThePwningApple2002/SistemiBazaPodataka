@@ -29,26 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            btnLovac = new Button();
+            btnPredmet = new Button();
             btnCud = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // btnLovac
+            // btnPredmet
             // 
-            btnLovac.BackColor = SystemColors.ScrollBar;
-            btnLovac.Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnLovac.ForeColor = SystemColors.ControlText;
-            btnLovac.Location = new Point(414, 304);
-            btnLovac.Margin = new Padding(2, 4, 2, 4);
-            btnLovac.Name = "btnLovac";
-            btnLovac.Size = new Size(86, 73);
-            btnLovac.TabIndex = 0;
-            btnLovac.Text = "Lovac";
-            btnLovac.UseVisualStyleBackColor = false;
-            btnLovac.Click += btnLovac_Click;
+            btnPredmet.BackColor = SystemColors.ScrollBar;
+            btnPredmet.Location = new Point(358, 325);
+            btnPredmet.Name = "btnPredmet";
+            btnPredmet.Size = new Size(194, 49);
+            btnPredmet.TabIndex = 4;
+            btnPredmet.Text = "Predmet";
+            btnPredmet.UseVisualStyleBackColor = false;
+            btnPredmet.Click += btnPredmet_Click;
             // 
             // btnCud
             // 
@@ -94,7 +91,7 @@
             Controls.Add(label1);
             Controls.Add(pictureBox1);
             Controls.Add(btnCud);
-            Controls.Add(btnLovac);
+            Controls.Add(btnPredmet);
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(2, 4, 2, 4);
             Name = "Form1";
@@ -106,7 +103,7 @@
 
         #endregion
 
-        private Button btnLovac;
+        private Button btnPredmet;
         private Button btnCud;
         private PictureBox pictureBox1;
         private Label label1;

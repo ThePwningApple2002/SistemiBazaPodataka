@@ -14,3 +14,6 @@ susret
 predmet
 protivmere
 uslovi za primenu
+specijalne sposobnosti ??
+ pp > legenda(vazi) > lokacija >lovac > susret ( lokacija i lovac i pp) RADIIII
+protivmere > uslov za primenu RADIII

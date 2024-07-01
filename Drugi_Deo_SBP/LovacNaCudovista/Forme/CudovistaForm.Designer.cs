@@ -128,7 +128,6 @@
             // 
             btnMagCud.AutoSize = true;
             btnMagCud.BackColor = SystemColors.ScrollBar;
-            btnMagCud.FlatStyle = FlatStyle.System;
             btnMagCud.Location = new Point(23, 27);
             btnMagCud.Name = "btnMagCud";
             btnMagCud.Size = new Size(172, 45);

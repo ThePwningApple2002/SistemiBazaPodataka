@@ -13,11 +13,13 @@ namespace LovacNaCudovista.Forme
 {
     public partial class SusretForm : Form
     {
-        int idLovca;
-        public SusretForm(int idLovca)
+        int idLovca, idLok, idPP;
+        public SusretForm(int idLovca, int idLokacija, int idPP)
         {
             InitializeComponent();
             this.idLovca = idLovca;
+            this.idLok = idLokacija;
+            this.idPP= idPP;
         }
         private void SusretForm_Load(object sender, EventArgs e)
         {
@@ -30,7 +32,7 @@ namespace LovacNaCudovista.Forme
 
 
             listaSusreta.Items.Clear();
-            List<SusretPregled> podaci = DTOManager.VratiSveSusrete();
+            List<SusretPregled> podaci = DTOManager.VratiSusreteZaLovca(idLovca);
 
 
             foreach (SusretPregled p in podaci)
@@ -52,16 +54,10 @@ namespace LovacNaCudovista.Forme
         }
         private void btnDodaj_Click(object sender, EventArgs e)
         {
-            if (listaSusreta.SelectedItems.Count == 0)
-            {
-                MessageBox.Show("Izaberite susret iz liste!");
-                return;
-            }
+            
 
-            int idLovca = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[1].Text);
-            int idLokacije = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[2].Text);
-            int idPozPred = Int32.Parse(listaSusreta.SelectedItems[0].SubItems[5].Text);
-            SusretAddForm formaDodaj = new SusretAddForm(idLovca, idLokacije, idPozPred);
+            
+            SusretAddForm formaDodaj = new SusretAddForm(idLovca, idLok, idPP);
             formaDodaj.ShowDialog();
             this.popuniPodacima();
             

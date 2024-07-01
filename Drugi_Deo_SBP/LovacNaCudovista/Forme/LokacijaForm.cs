@@ -12,12 +12,13 @@ namespace LovacNaCudovista.Forme
 {
     public partial class LokacijaForm : Form
     {
-        private int idLegende, idLokacije;
-        public LokacijaForm(int idLegende)
+        private int idLegende, idLokacije,idPP;
+        public LokacijaForm(int idLegende, int idPP)
         {
             InitializeComponent();
             this.idLegende = idLegende;
             this.idLokacije = DTOManager.VratiIdLokacijePoIdLegende(idLegende);
+            this.idPP = idPP;
 
         }
 
@@ -113,6 +114,13 @@ namespace LovacNaCudovista.Forme
             int idLokacije = Int32.Parse(listaLokacija.SelectedItems[0].SubItems[0].Text);
 
             ZastitaForm forma = new ZastitaForm(idLokacije);
+            forma.ShowDialog();
+            this.popuniPodacima();
+        }
+
+        private void btnLovac_Click(object sender, EventArgs e)
+        {
+            LovacForm forma = new LovacForm(idPP, idLokacije);
             forma.ShowDialog();
             this.popuniPodacima();
         }

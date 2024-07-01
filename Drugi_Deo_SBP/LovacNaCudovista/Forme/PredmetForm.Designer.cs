@@ -38,6 +38,7 @@
             btnIzmeni = new Button();
             btnObrisi = new Button();
             btnDodaj = new Button();
+            btnProtivmere = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -136,12 +137,25 @@
             btnDodaj.UseVisualStyleBackColor = false;
             btnDodaj.Click += btnDodaj_Click;
             // 
+            // btnProtivmere
+            // 
+            btnProtivmere.AutoSize = true;
+            btnProtivmere.BackColor = SystemColors.ScrollBar;
+            btnProtivmere.Location = new Point(795, 259);
+            btnProtivmere.Name = "btnProtivmere";
+            btnProtivmere.Size = new Size(132, 45);
+            btnProtivmere.TabIndex = 4;
+            btnProtivmere.Text = "Protivmere";
+            btnProtivmere.UseVisualStyleBackColor = false;
+            btnProtivmere.Click += btnProtivmere_Click;
+            // 
             // PredmetForm
             // 
             AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(975, 472);
+            Controls.Add(btnProtivmere);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -152,6 +166,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -166,5 +181,6 @@
         private Button btnIzmeni;
         private Button btnObrisi;
         private Button btnDodaj;
+        private Button btnProtivmere;
     }
 }

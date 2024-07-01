@@ -43,7 +43,7 @@ namespace LovacNaCudovista.Forme
             }
 
             listaPredmeta.Refresh();
-            
+
         }
 
         private void btnDodaj_Click(object sender, EventArgs e)
@@ -94,6 +94,13 @@ namespace LovacNaCudovista.Forme
             PredmetUpdateForm formaDodaj = new PredmetUpdateForm(ob);
             formaDodaj.ShowDialog();
             this.popuniPodacima();
+        }
+
+        private void btnProtivmere_Click(object sender, EventArgs e)
+        {
+            
+            ProtivmeraForm forma = new ProtivmeraForm();
+            forma.ShowDialog();
         }
     }
 }

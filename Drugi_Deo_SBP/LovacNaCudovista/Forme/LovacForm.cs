@@ -12,9 +12,12 @@ namespace LovacNaCudovista.Forme
 {
     public partial class LovacForm : Form
     {
-        public LovacForm()
+        private int idPP, idLokacije;
+        public LovacForm(int idPP, int idLok)
         {
             InitializeComponent();
+            this.idPP = idPP;
+            this.idLokacije = idLok;
         }
         private void LovacForm_Load(object sender, EventArgs e)
         {
@@ -104,7 +107,7 @@ namespace LovacNaCudovista.Forme
             }
 
             int idLovca = Int32.Parse(listaLovca.SelectedItems[0].SubItems[0].Text);
-            SusretForm forma = new SusretForm(idLovca);
+            SusretForm forma = new SusretForm(idLovca, idLokacije, idPP);
             forma.ShowDialog();
             this.popuniPodacima();
         }

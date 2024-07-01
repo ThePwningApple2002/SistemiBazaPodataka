@@ -40,6 +40,7 @@
             btnIzmeniLok = new Button();
             btnObrisiLok = new Button();
             btnDodajLok = new Button();
+            btnLovac = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -98,13 +99,12 @@
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(btnZastita);
             groupBox2.Controls.Add(btnIzmeniLok);
             groupBox2.Controls.Add(btnObrisiLok);
             groupBox2.Controls.Add(btnDodajLok);
             groupBox2.Location = new Point(817, 36);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(208, 249);
+            groupBox2.Size = new Size(208, 195);
             groupBox2.TabIndex = 5;
             groupBox2.TabStop = false;
             // 
@@ -112,7 +112,7 @@
             // 
             btnZastita.AutoSize = true;
             btnZastita.BackColor = SystemColors.ScrollBar;
-            btnZastita.Location = new Point(40, 178);
+            btnZastita.Location = new Point(857, 255);
             btnZastita.Name = "btnZastita";
             btnZastita.Size = new Size(132, 45);
             btnZastita.TabIndex = 4;
@@ -156,12 +156,26 @@
             btnDodajLok.UseVisualStyleBackColor = false;
             btnDodajLok.Click += btnDodajLok_Click;
             // 
+            // btnLovac
+            // 
+            btnLovac.AutoSize = true;
+            btnLovac.BackColor = SystemColors.ScrollBar;
+            btnLovac.Location = new Point(857, 320);
+            btnLovac.Name = "btnLovac";
+            btnLovac.Size = new Size(132, 45);
+            btnLovac.TabIndex = 6;
+            btnLovac.Text = "Lovac";
+            btnLovac.UseVisualStyleBackColor = false;
+            btnLovac.Click += btnLovac_Click;
+            // 
             // LokacijaForm
             // 
             AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(1051, 472);
+            Controls.Add(btnLovac);
+            Controls.Add(btnZastita);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -172,6 +186,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -188,5 +203,6 @@
         private Button btnObrisiLok;
         private Button btnDodajLok;
         private Button btnZastita;
+        private Button btnLovac;
     }
 }
