@@ -16,7 +16,7 @@ namespace LovacNaCudovistaLibrary.DTOs
 
         public virtual IList<MagCudovisteView> MagCudovista { get; set; }
 
-        internal MagSposobnostView(MagSposobnost p)
+        internal MagSposobnostView(MagSposobnost? p)
         {
 
             if (p != null)
