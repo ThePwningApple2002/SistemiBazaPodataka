@@ -110,5 +110,12 @@ namespace LovacNaCudovista.Forme
             forma.ShowDialog();
             this.popuniPodacima();
         }
+
+        private void btnSpecSpos_Click(object sender, EventArgs e)
+        {
+            SpecSposForm forma = new SpecSposForm();
+            forma.ShowDialog();
+            this.popuniPodacima();
+        }
     }
 }

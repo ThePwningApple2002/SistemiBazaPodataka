@@ -39,7 +39,7 @@ namespace LovacNaCudovista.Forme
                     p.PodTipCud,
                     p.VekPomCud.ToString(),
                     p.Postojanje
-                }) ;
+                });
                 listaCudovista.Items.Add(item);
             }
 
@@ -95,6 +95,13 @@ namespace LovacNaCudovista.Forme
             formaDodaj.ShowDialog();
             this.popuniPodacima();
 
+        }
+
+        private void btnMagSpos_Click(object sender, EventArgs e)
+        {
+            MagSposForm forma = new MagSposForm();
+            forma.ShowDialog();
+            this.popuniPodacima();
         }
     }
 }

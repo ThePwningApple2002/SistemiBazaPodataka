@@ -137,6 +137,7 @@
             Controls.Add(groupBox1);
             Name = "SpecSposForm";
             Text = "SpecSposForm";
+            Load += SpecSposForm_Load;
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();

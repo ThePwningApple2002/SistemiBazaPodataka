@@ -1,204 +1,73 @@
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.AssemblyReference.cache
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.GenerateResource.cache
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.GeneratedMSBuildEditorConfig.editorconfig
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfoInputs.cache
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfo.cs
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.CoreCompileInputs.cache
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.sourcelink.json
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.exe
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.deps.json
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.runtimeconfig.json
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.pdb
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\FluentNHibernate.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Iesi.Collections.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\NHibernate.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Form1.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaC.6E5B2913.Up2Date
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\refint\LovacNaCudovista.dll
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.pdb
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.genruntimeconfig.cache
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.exe
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.deps.json
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.runtimeconfig.json
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.pdb
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\FluentNHibernate.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Iesi.Collections.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\NHibernate.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.AssemblyReference.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Form1.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.GenerateResource.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfoInputs.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfo.cs
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.CoreCompileInputs.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.sourcelink.json
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaC.6E5B2913.Up2Date
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\refint\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.pdb
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.genruntimeconfig.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PoznatiPredstavnikForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazaPodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovisteAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovisteUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PoznatiPredstavnikForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaAddForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaForm.resources
-H:\Faks\SBP\Drugi_Deo_Projekta\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.exe
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.deps.json
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.runtimeconfig.json
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.pdb
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\FluentNHibernate.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Iesi.Collections.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\NHibernate.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.AssemblyReference.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Form1.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PoznatiPredstavnikForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaAddForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaUpdateForm.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Properties.Resources.resources
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.GenerateResource.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfoInputs.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfo.cs
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.CoreCompileInputs.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.sourcelink.json
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaC.6E5B2913.Up2Date
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\refint\LovacNaCudovista.dll
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.pdb
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.genruntimeconfig.cache
-C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.exe
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.deps.json
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.runtimeconfig.json
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\LovacNaCudovista.pdb
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Antlr3.Runtime.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\FluentNHibernate.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Iesi.Collections.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\NHibernate.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Oracle.ManagedDataAccess.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\Remotion.Linq.EagerFetching.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.AssemblyReference.cache
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Form1.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.BajalicaUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.CudovistaForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LegendaUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LokacijaUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.LovacUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagCudovisteUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.NeMagCudUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PoznatiPredstavnikForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PozPredUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.PredmetUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ProtivmeraUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SpecSposAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SpecSposForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SpecSposUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.SusretUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UsloviUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.UslovZaPrimenuForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.ZastitaUpdateForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Properties.Resources.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.GenerateResource.cache
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfoInputs.cache
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.AssemblyInfo.cs
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.csproj.CoreCompileInputs.cache
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaC.6E5B2913.Up2Date
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\refint\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.pdb
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.genruntimeconfig.cache
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\ref\LovacNaCudovista.dll
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagSposAddForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagSposForm.resources
+C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\obj\Debug\net8.0-windows\LovacNaCudovista.Forme.MagSposUpdateForm.resources

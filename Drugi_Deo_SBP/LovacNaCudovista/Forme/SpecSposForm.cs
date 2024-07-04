@@ -90,9 +90,9 @@ namespace LovacNaCudovista.Forme
             }
 
             int idSpec = Int32.Parse(listaSpecSpos.SelectedItems[0].SubItems[0].Text);
-            BajalicaBasic ob = DTOManager.vratiBajalicu(idSpec);
+            SpecSposobnostBasic ob = DTOManager.vratiSpecSpos(idSpec);
 
-            BajalicaUpdateForm formaUpdate = new BajalicaUpdateForm(ob);
+            SpecSposUpdateForm formaUpdate = new SpecSposUpdateForm(ob);
             formaUpdate.ShowDialog();
 
             this.popuniPodacima();

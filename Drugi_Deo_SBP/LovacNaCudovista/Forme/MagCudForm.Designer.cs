@@ -39,6 +39,7 @@
             btnIzmeniCud = new Button();
             btnObrisiCud = new Button();
             btnDodajCud = new Button();
+            btnMagSpos = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -141,12 +142,25 @@
             btnDodajCud.UseVisualStyleBackColor = false;
             btnDodajCud.Click += btnDodajCud_Click;
             // 
+            // btnMagSpos
+            // 
+            btnMagSpos.AutoSize = true;
+            btnMagSpos.BackColor = SystemColors.ScrollBar;
+            btnMagSpos.Location = new Point(749, 263);
+            btnMagSpos.Name = "btnMagSpos";
+            btnMagSpos.Size = new Size(176, 45);
+            btnMagSpos.TabIndex = 4;
+            btnMagSpos.Text = "Magicne Sposobnosti ";
+            btnMagSpos.UseVisualStyleBackColor = false;
+            btnMagSpos.Click += btnMagSpos_Click;
+            // 
             // MagCudForm
             // 
             AutoScaleDimensions = new SizeF(8F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.WindowFrame;
             ClientSize = new Size(959, 546);
+            Controls.Add(btnMagSpos);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Font = new Font("Impact", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -157,6 +171,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -172,5 +187,6 @@
         private Button btnObrisiCud;
         private Button btnDodajCud;
         private ColumnHeader columnHeader5;
+        private Button btnMagSpos;
     }
 }
