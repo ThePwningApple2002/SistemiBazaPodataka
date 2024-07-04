@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LovacNaCudovista
-build_property.ProjectDir = C:\Users\Simeon Stojanovic\Downloads\sbp\Drugi_Deo_SBP\LovacNaCudovista\
+build_property.ProjectDir = C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Drugi_Deo_SBP\LovacNaCudovista\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
