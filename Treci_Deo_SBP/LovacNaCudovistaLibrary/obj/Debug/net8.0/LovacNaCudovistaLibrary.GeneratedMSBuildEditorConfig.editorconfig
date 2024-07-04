@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LovacNaCudovistaLibrary
-build_property.ProjectDir = C:\Users\Simeon Stojanovic\source\repos\SistemiBazePodataka\Treci_Deo_SBP\LovacNaCudovistaLibrary\
+build_property.ProjectDir = H:\Faks\SBP\Drugi_Deo_Projekta\Treci_Deo_SBP\LovacNaCudovistaLibrary\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

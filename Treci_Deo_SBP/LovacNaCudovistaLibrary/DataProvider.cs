@@ -40,6 +40,11 @@ namespace LovacNaCudovistaLibrary
             {
                 ISession s = DataLayer.GetSession();
 
+                if (!(s?.IsConnected ?? false))
+                {
+                   
+                }
+
                 Bajalica o = new Bajalica();
 
                 o.IdBajalice = b.IdBajalica;
@@ -918,28 +923,26 @@ namespace LovacNaCudovistaLibrary
 
         }
 
-        public static void dodajLovca(LovacView b)
+        public static async Task dodajLovca(LovacView b)
         {
-            try
+            using (ISession s = DataLayer.GetSession())
+            using (ITransaction tx = s.BeginTransaction())
             {
-                ISession s = DataLayer.GetSession();
-
-                Lovac o = new Lovac();
-
-                o.IdLovca = b.IdLovca;
-                o.ImeLovca = b.ImeLovca;
-
-
-
-                s.SaveOrUpdate(o);
-
-                s.Flush();
-
-                s.Close();
-            }
-            catch
-            {
-                //handle exceptions
+                try
+                {
+                    Lovac o = new Lovac
+                    {
+                        ImeLovca = b.ImeLovca
+                    };
+                    await s.SaveOrUpdateAsync(o);
+                    await tx.CommitAsync();
+                }
+                catch (Exception ex)
+                {
+                    await tx.RollbackAsync();
+                    // Log the exception
+                    throw;
+                }
             }
         }
 

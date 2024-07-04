@@ -14,11 +14,11 @@ namespace LovacNaCudovistaAPI.Controllers
 
 
         [HttpGet]
-        [Route("PreuzmiProdavnice")]
+        [Route("PreuzmiMagCudovista")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        public IActionResult GetProdavnice()
+        public IActionResult GetMagCudovista()
         {
             var cudovista = DataProvider.vratisvaMagCudovista();
 
@@ -28,45 +28,45 @@ namespace LovacNaCudovistaAPI.Controllers
         }
 
         [HttpPost]
-        [Route("DodajProdavnicu")]
+        [Route("DodajMagCudoviste")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        public async Task<IActionResult> AddProdavnica([FromBody] MagCudovisteView p)
+        public async Task<IActionResult> AddMagCudoviste([FromBody] MagCudovisteView p)
         {
             DataProvider.dodajMagCudoviste(p);
 
       
 
-            return StatusCode(201, $"Uspešno dodata prodavnica. Naziv: {p.NazivCud}");
+            return StatusCode(201, $"Uspešno dodato Cudoviste. Naziv: {p.NazivCud}");
         }
 
         [HttpPut]
-        [Route("PromeniProdavnicu")]
+        [Route("PromeniMagCudoviste")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        public async Task<IActionResult> ChangeProdavnica([FromBody] MagCudovisteView p)
+        public async Task<IActionResult> ChangeMagCudoviste([FromBody] MagCudovisteView p)
         {
             DataProvider.azurirajMagCudoviste(p);
 
            
 
-            return Ok($"Uspešno ažurirana prodavnica. Naziv: {p.NazivCud}");
+            return Ok($"Uspešno ažurirano Cudoviste. Naziv: {p.NazivCud}");
         }
 
         [HttpDelete]
-        [Route("IzbrisiProdavnicu/{id}")]
+        [Route("IzbrisiMagCudoviste/{id}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        public async Task<IActionResult> DeleteProdavnica(int id)
+        public async Task<IActionResult> DeleteMagCudoviste(int id)
         {
             DataProvider.obrisiMagCudoviste(id);
 
         
 
-            return StatusCode(204, $"Uspešno obrisana prodavnica. ID: {id}");
+            return StatusCode(204, $"Uspešno obrisano Cudoviste. ID: {id}");
         }
 
     }
