@@ -201,6 +201,7 @@
             btnSpecSpos.TabIndex = 8;
             btnSpecSpos.Text = "Specijalne Sposobnosti";
             btnSpecSpos.UseVisualStyleBackColor = false;
+            btnSpecSpos.Click += btnSpecSpos_Click;
             // 
             // NeMagCudForm
             // 

@@ -5478,11 +5478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazePodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\LovacNaCudovista.csproj",
+      "projectUniqueName": "C:\\Users\\Simeon Stojanovic\\Downloads\\sbp\\Drugi_Deo_SBP\\LovacNaCudovista\\LovacNaCudovista.csproj",
       "projectName": "LovacNaCudovista",
-      "projectPath": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazePodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\LovacNaCudovista.csproj",
+      "projectPath": "C:\\Users\\Simeon Stojanovic\\Downloads\\sbp\\Drugi_Deo_SBP\\LovacNaCudovista\\LovacNaCudovista.csproj",
       "packagesPath": "C:\\Users\\Simeon Stojanovic\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simeon Stojanovic\\source\\repos\\SistemiBazePodataka\\Drugi_Deo_SBP\\LovacNaCudovista\\obj\\",
+      "outputPath": "C:\\Users\\Simeon Stojanovic\\Downloads\\sbp\\Drugi_Deo_SBP\\LovacNaCudovista\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simeon Stojanovic\\AppData\\Roaming\\NuGet\\NuGet.Config",

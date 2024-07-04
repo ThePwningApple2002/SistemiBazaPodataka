@@ -42,7 +42,7 @@ namespace LovacNaCudovista.Forme
 
 
                 DTOManager.azurirajSpecSpos(this.specspos);
-                MessageBox.Show("Azuriranje bajalice je uspesno izvrseno!");
+                MessageBox.Show("Azuriranje sposobnosti je uspesno izvrseno!");
                 this.Close();
             }
             else
