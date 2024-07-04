@@ -14,7 +14,7 @@ namespace LovacNaCudovistaLibrary.DTOs
 
         public virtual IList<NeMagCudovisteView> NeMagCudovista { get; set; }
 
-        internal SpecSposobnostView(SpecSposobnost p)
+        internal SpecSposobnostView(SpecSposobnost? p)
         {
 
             if( p != null)

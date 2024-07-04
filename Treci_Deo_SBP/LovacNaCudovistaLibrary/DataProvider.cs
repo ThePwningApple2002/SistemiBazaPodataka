@@ -40,10 +40,6 @@ namespace LovacNaCudovistaLibrary
             {
                 ISession s = DataLayer.GetSession();
 
-                if (!(s?.IsConnected ?? false))
-                {
-                   
-                }
 
                 Bajalica o = new Bajalica();
 
@@ -1039,29 +1035,51 @@ namespace LovacNaCudovistaLibrary
 
         }
 
-        public static void sacuvajMagSpos(MagSposobnostView magspos)
+        public static async Task<MagSposobnost> SacuvajMagSpos(MagSposobnostView b)
         {
+            using var session = DataLayer.GetSession();
+            using var transaction = session.BeginTransaction();
             try
             {
-                ISession s = DataLayer.GetSession();
+                var magSposobnost = new MagSposobnost
+                {
+                    NazivMagSpos = b.NazivMagSpos,
+                    OpisMagSpos = b.OpisMagSpos,
+                    Ofanzivna = b.Ofanzivna,
+                    Defanzivna = b.Defanzivna
+                };
 
-                MagSposobnost o = new MagSposobnost();
+                // Log the values being inserted
+                Console.WriteLine($"Attempting to insert MagSposobnost: " +
+                    $"NazivMagSpos={magSposobnost.NazivMagSpos}, " +
+                    $"OpisMagSpos={magSposobnost.OpisMagSpos}, " +
+                    $"Ofanzivna={magSposobnost.Ofanzivna}, " +
+                    $"Defanzivna={magSposobnost.Defanzivna}");
 
-                o.NazivMagSpos = magspos.NazivMagSpos;
-                o.OpisMagSpos = magspos.OpisMagSpos;
-                o.Ofanzivna = magspos.Ofanzivna;
-                o.Defanzivna = magspos.Defanzivna;
+                await session.SaveOrUpdateAsync(magSposobnost);
+                await transaction.CommitAsync();
 
+                Console.WriteLine($"Successfully inserted MagSposobnost with ID: {magSposobnost.IdMagSpos}");
 
-                s.Save(o);
-
-                s.Flush();
-
-                s.Close();
+                return magSposobnost;
             }
-            catch
+            catch (Exception ex)
             {
-                //handle exceptions
+                await transaction.RollbackAsync();
+
+                Console.WriteLine($"Error saving MagSposobnost: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Inner Exception: {ex.InnerException.Message}");
+                }
+
+                // Log NHibernate-specific exception details if available
+                if (ex is NHibernate.ADOException adoEx)
+                {
+                    Console.WriteLine($"SQL: {adoEx.SqlString}");
+                }
+
+                throw;
             }
         }
 
@@ -1167,28 +1185,35 @@ namespace LovacNaCudovistaLibrary
 
         }
 
-        public static void sacuvajSpecSpos(SpecSposobnostView specspos)
+        public static async Task<SpecSposobnost> sacuvajSpecSpos(SpecSposobnostView b)
         {
+            using var session = DataLayer.GetSession();
+            using var transaction = session.BeginTransaction();
+
             try
             {
-                ISession s = DataLayer.GetSession();
+                var specSposobnost = new SpecSposobnost
+                {
+                    NazivSpecSpos = b.NazivSpecSpos
+                };
 
-                SpecSposobnost o = new SpecSposobnost();
+                await session.SaveOrUpdateAsync(specSposobnost);
+                await transaction.CommitAsync();
 
-                o.NazivSpecSpos = specspos.NazivSpecSpos;
-
-
-                s.Save(o);
-
-                s.Flush();
-
-                s.Close();
+                return specSposobnost;
             }
-            catch
+            catch (Exception ex)
             {
-                //handle exceptions
+                await transaction.RollbackAsync();
+                // Log the exception
+                Console.WriteLine($"Error saving SpecSposobnost: {ex.Message}");
+                throw; // Re-throw the exception to be handled by the caller
             }
         }
+
+
+
+
 
         public static void azurirajSpecSpos(SpecSposobnostView b)
         {

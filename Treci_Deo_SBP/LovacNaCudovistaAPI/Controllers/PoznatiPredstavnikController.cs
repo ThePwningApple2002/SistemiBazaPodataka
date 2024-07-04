@@ -25,20 +25,20 @@ namespace LovacNaCudovistaAPI.Controllers
             return Ok(cudovista);
         }
 
-       /* [HttpPost]
+        [HttpPost]
         [Route("DodajPoznatogPredstavnika")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
-        public async Task<IActionResult> AddPoznatogPred([FromBody] PoznatiPredstavnikView p)
+        public async Task<IActionResult> AddPoznatogPred([FromBody] PoznatiPredstavnikView p, CudovisteView c)
         {
-            DataProvider.dodajPozPred(p);
+            DataProvider.dodajPozPred(p, c);
 
 
 
-            return StatusCode(201, $"Uspešno dodata Bajalica. Naziv: {p.}");
+            return StatusCode(201, $"Uspešno dodat Poznati Predstavnik. Naziv: {p.JedinstvenoIme}");
         }
-       */
+       
         [HttpPut]
         [Route("PromeniPoznatiPredstavnika")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -50,7 +50,7 @@ namespace LovacNaCudovistaAPI.Controllers
 
 
 
-            return Ok($"Uspešno ažurirana Bajalica. Naziv: {p.JedinstvenoIme}");
+            return Ok($"Uspešno ažurirana Poznati Predstavnik. Naziv: {p.JedinstvenoIme}");
         }
 
         [HttpDelete]
@@ -64,7 +64,7 @@ namespace LovacNaCudovistaAPI.Controllers
 
 
 
-            return StatusCode(204, $"Uspešno obrisana PoznatiPredstavnik. ID: {id}");
+            return StatusCode(204, $"Uspešno obrisana Poznati Predstavnik. ID: {id}");
         }
     }
 }

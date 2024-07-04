@@ -31,11 +31,19 @@ namespace LovacNaCudovistaAPI.Controllers
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         public async Task<IActionResult> AddMagSpos([FromBody] MagSposobnostView p)
         {
-            DataProvider.sacuvajMagSpos(p);
-
-
-
-            return StatusCode(201, $"Uspešno dodata MagSposobnost. Naziv: {p.NazivMagSpos}");
+            try
+            {
+                var savedMagSposobnost = await DataProvider.SacuvajMagSpos(p);
+                return StatusCode(201, new
+                {
+                    Message = $"Uspešno dodata MagSposobnost. Naziv: {savedMagSposobnost.NazivMagSpos}",
+                    Id = savedMagSposobnost.IdMagSpos
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"An error occurred while saving MagSposobnost: {ex.Message}");
+            }
         }
 
         [HttpPut]

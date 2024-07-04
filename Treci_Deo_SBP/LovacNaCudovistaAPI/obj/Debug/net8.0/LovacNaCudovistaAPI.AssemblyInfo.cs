@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LovacNaCudovistaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06f5795bb2e67541be8454191b1545f65fd305bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+875b1f0cd5dde86a16c24a3355e77053af6bdad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("LovacNaCudovistaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LovacNaCudovistaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
